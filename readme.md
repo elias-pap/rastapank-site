@@ -1,11 +1,11 @@
-## Matzore fm 89.1
- ![Build and Release](https://github.com/panos-stavrianos/matzore_radio/workflows/Build%20and%20Release/badge.svg)
+## Ραδιοφωνικός Σταθμός Πανεπιστημίου Κρήτης (ρασταπανκ) fm 96.7
+ ![Build and Release](https://github.com/UoC-Radio/rastapank-site/workflows/Build%20and%20Release/badge.svg)
 ### Download, Build and Run on node express server
 > You need to have `npm` installed 
 
 ```sh
-git clone https://github.com/panos-stavrianos/matzore_radio.git
-cd matzore_radio
+git clone https://github.com/UoC-Radio/rastapank-site.git
+cd rastapank-site
 npm run install:clean
 export PORT=80 # optional, default: 8080
 npm start
@@ -13,13 +13,13 @@ npm start
 
 ## Alternatively use a prebuild release
 
-You can download from the [latest release](https://github.com/panos-stavrianos/matzore_radio/releases/latest) the build.zip.
+You can download from the [latest release](https://github.com/UoC-Radio/rastapank-site/releases/latest) the build.zip.
 Then extract the zip file in the desired folder.
  
 Alternatively you can do it from terminal
 ```
 # cd to the folder you want to host the files
-wget https://github.com/panos-stavrianos/matzore_radio/releases/latest/download/build.zip
+wget https://github.com/UoC-Radio/rastapank-site/releases/latest/download/build.zip
 unzip build.zip
 rm build.zip
 ```
