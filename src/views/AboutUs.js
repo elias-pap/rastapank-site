@@ -16,7 +16,7 @@ const renderMarkers = (map, maps, lat, lng) => {
 
 function GMapReact() {
     let defaultProps = {
-        center: {lat: 35.352044, lng: 24.449913},
+        center: {lat: 35.30846, lng: 25.08119},
         zoom: 16,
     };
 
@@ -47,28 +47,13 @@ class AboutUs extends Component {
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="title text-left">About Us</h2>
                                     <h5 className="description text-left">
-                                        Η «φωνή» του Πανεπιστημίου Κρήτης (Ρέθυμνο) είναι εδώ!
-                                        <br/>
-                                        Μια φωνή που εκφράζεται
-                                        μουσικά,
-                                        προφορικά ή γραπτά για ό,τι την αφορά, για ό,τι την απασχολεί και για ό,τι την
-                                        εμπνέει.
-                                        <br/>
-                                        <span className='font-weight-bold'>ΜατζόΡε</span> είναι ο ραδιοφωνικός σταθμός
-                                        που πατά σε φοιτητικό έδαφος και κοιτά προς
-                                        πάσα
-                                        κατεύθυνση.
-                                        <br/>
-                                        Οι ευρύτεροι στόχοι: η κριτική, ο πολιτισμός, ο διάλογος, η εξ
-                                        αποστάσεως παρέα με
-                                        τον ακροατή.
-                                        <br/>
-                                        Η αγάπη για το ράδιο μας φέρνει όλους κοντά και η ανάγκη για
-                                        έκφραση μας ενώνει.
-                                        <br/>
-                                        Μια έκφραση που για να αξιώνει να λέγεται ελεύθερη, προϋποθέτει τον ολοκληρωτικό
-                                        αποκλεισμό κάθε
-                                        άποψης που βασίζεται σε διακρίσεις και αναπαράγει τις κοινωνικές ανισότητες.
+                                    Ο ρα.στα.πάν.κ (ΡΑδιοφωνικός ΣΤΑθμός του ΠΑΝεπιστημίου Κρήτης) είναι μία αυτοδιαχειριζόμενη κοινότητα που στεγάζεται σ’ ένα κτίριο στους πρόποδες του κάμπου(ς) του πανεπιστημίου.
+                                    <br/><br/>
+                                    Η ομάδα είναι ανοιχτή σε άτομα εντός και εκτός πανεπιστημίου, σε όποιον αποδέχεται την διαφορετικότητα και την ελεύθερη έκφραση της, ενώ η οργάνωση και λήψη αποφάσεων γίνεται σε εβδομαδιαία γενική συνέλευση.
+                                    <br/><br/>
+                                    Η οικονομική επιβίωση και ανατροφοδότηση του εγχειρήματος επιτυγχάνεται μέσω εκδηλώσεων και δωρεών. Από το 2017 το πανεπιστήμιο χορηγεί την ενοικίαση και την ηλεκτροδότηση οικίσκου στο πάρκο κεραιών της Ρογδιάς, όπου έχει εγκατασταθεί εξοπλισμός για εκπομπή σήματος FM προς τους ραδιοφωνικούς δέκτες του Ηρακλείου.
+                                    <br/><br/>
+                                    Η ομάδα επιδιώκει την απο-εμπορευματοποίηση και ενεργά χρησιμοποιεί, σχεδιάζει και συνεισφέρει ελεύθερο και ανοιχτό λογισμικό. Με την δημόσια έκφραση, η φιλοδοξία της ομάδας είναι ο πειραματισμός, η ανάδειξη της πολιτιστικής ποικιλομορφίας και η διάδοση της επιστημονικής ή και εμπειρικής γνώσης με απώτερο στόχο την ατομική και συλλογική υπέρβαση.
                                     </h5>
 
                                 </Col>
@@ -79,28 +64,28 @@ class AboutUs extends Component {
                                     </h2>
                                     <div className="description">
                                         <h6>ΔΙΕΥΘΥΝΣΗ</h6>
-                                        <span>Πανεπιστημιούπολη Ρεθύμνου, έναντι γραφείων μέριμνας</span>
+                                        <span>Πανεπιστημιούπολη Βουτών, Φοιτητικό Κέντρο</span>
                                         <br/> <br/>
                                         <div style={{width: "100%", height: "100%"}}>
                                             <GMapReact/>
                                         </div>
                                         <h6>ΕΠΙΚΟΙΝΩΝΙΑ</h6>
                                         <span className="">studio: &nbsp;</span>
-                                        <span className="text-muted subscribe-line">2831077777</span>
+                                        <span className="text-muted subscribe-line">2810-394894</span>
                                         <br/>
                                         <span className="">email: &nbsp;</span>
-                                        <span className="text-muted subscribe-line">matzore89.1@outlook.com</span>
+                                        <span className="text-muted subscribe-line">radio@culture.uoc.gr</span>
                                     </div>
                                 </Col>
                             </Row>
                             <Row>
                                 <div className="col-sm-12">
                                     <div className="middle">
-                                        <a className="btn2" href="https://www.facebook.com/matzorefm89.1/">
+                                        <a className="btn2" href="https://www.facebook.com/rastapank967">
                                             <i className="fa fa-facebook-f"/>
                                         </a>
-                                        <a className="btn2" href="https://www.instagram.com/89.1matzore/">
-                                            <i className="fa fa-instagram"/>
+                                        <a className="btn2" href="https://github.com/UoC-Radio">
+                                            <i className="fa fa-github"/>
                                         </a>
                                     </div>
                                 </div>

@@ -55,19 +55,21 @@ function start_autobahn() {
     }
 
     function set_meta(data_autopilot) {
-        $.getJSON('https://matzore-shows.herokuapp.com/api/get_show_playing', (data_show) => {
+        /*$.getJSON('https://matzore-shows.herokuapp.com/api/get_show_playing', (data_show) => {
             if (data_show && !isObjectEmpty(data_show))
                 set_meta_show(data_show);
             else
                 set_meta_autopilot(data_autopilot)
         }).fail(() => {
-            set_meta_autopilot(data_autopilot)
-        });
+            
+        });*/
+
+        set_meta_autopilot(data_autopilot)
 
     }
 
     const connection = new autobahn.Connection({
-        url: window.location.protocol === "http:" ? 'ws://83.212.124.250:8081/ws' : 'wss://83.212.124.250:8081/ws',
+        url: window.location.protocol === "http:" ? 'ws://83.212.124.250:8080/ws' : 'wss://83.212.124.250:8080/ws',
         realm: 'metadata-realm',
         authid: "anonymous"
     });
@@ -138,7 +140,7 @@ function RadioPlayer() {
             useFastPolling: true,
             useHighPerformance: true,
             id: 'Radio',
-            url: ['http://rs.radio.uoc.gr:8000/matzore_64.ogg', 'http://rs.radio.uoc.gr:8000/matzore_64.mp3'],
+            url: ['http://rs.radio.uoc.gr:8000/uoc_128.ogg', 'http://rs.radio.uoc.gr:8000/uoc_128.mp3'],
             bufferTime: 9,
             onstop: function () {
                 set_icon(-1, set_music_card_playing)

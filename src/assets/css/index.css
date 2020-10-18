@@ -41,7 +41,7 @@ code {
 }
 
 .img-brand {
-    width: 140px;
+    width: 340px;
     object-fit: cover;
 }
 
@@ -98,5 +98,9 @@ code {
 
 p {
     font-size: 17px;
+}
+
+.page-header .content-center {
+    margin-top: 165px;
 }
 

@@ -10,7 +10,7 @@ function IndexHeader() {
             <div id="menu" className="page-header section-dark"
                  style={{
                      backgroundImage:
-                         "url(" + require("./../../assets/img/nick.jpg") + ")"
+                         "url(" + require("./../../assets/img/forest_small.jpg") + ")"
                  }}>
                 <div className="filter"/>
                 <div className="z99 content-center">
@@ -19,7 +19,7 @@ function IndexHeader() {
                             <RadioPlayer/>
                         </div>
                         <h2  className="presentation-subtitle text-center">
-                            Ο σταθμός του Πανεπιστημίου Κρήτης στο Ρέθυμνο
+                            Ο σταθμός του Πανεπιστημίου Κρήτης στο Ηράκλειο
                         </h2>
                     </Container>
                 </div>

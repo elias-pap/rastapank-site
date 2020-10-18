@@ -12,14 +12,14 @@ function IndexFooter() {
 
                             <div className="description">
                                 <h6>ΔΙΕΥΘΥΝΣΗ</h6>
-                                <span>Πανεπιστημιούπολη Ρεθύμνου, έναντι γραφείων μέριμνας</span>
+                                <span>Πανεπιστημιούπολη Βουτών, Φοιτητικό Κέντρο</span>
                                 <br/> <br/>
                                 <h6>ΕΠΙΚΟΙΝΩΝΙΑ</h6>
                                 <span className="">studio: &nbsp;</span>
-                                <span className="text-muted subscribe-line">2831077777</span>
+                                <span className="text-muted subscribe-line">2810-394894</span>
                                 <br/>
                                 <span className="">email: &nbsp;</span>
-                                <span className="text-muted subscribe-line">matzore89.1@outlook.com</span>
+                                <span className="text-muted subscribe-line">radio@culture.uoc.gr</span>
                             </div>
                         </div>
 
@@ -30,17 +30,17 @@ function IndexFooter() {
                         <span className="copyright">
                           © {new Date().getFullYear()}
                             <i className="fa fa-music heart" style={{position: "unset"}}/>
-                            Made by matzore fm 89.1
+                            Made by rastapank 96.7 (based on matzore fm 89.1)
 
                         </span>
                             </div>
                             <div className="center">
                                 <div className="middle">
-                                    <a className="btn2" href="https://www.facebook.com/matzorefm89.1/">
+                                    <a className="btn2" href="https://www.facebook.com/rastapank967">
                                         <i className="fa fa-facebook-f"/>
                                     </a>
-                                    <a className="btn2" href="https://www.instagram.com/89.1matzore/">
-                                        <i className="fa fa-instagram"/>
+                                    <a className="btn2" href="https://github.com/UoC-Radio/">
+                                        <i className="fa fa-github"/>
                                     </a>
                                     {/*<a className="btn2" href="https://facebook.com">*/}
                                     {/*    <i className="fa fa-twitter"/>*/}

@@ -26,8 +26,8 @@ import {Link} from "react-router-dom";
 import $ from 'jquery';
 
 function TheNavbar({categories}) {
-    const white_logo = require("assets/img/arourilogo_wide.png")
-    const black_logo = require("assets/img/arourilogo_wide.png")
+    const white_logo = require("assets/img/arourilogo_wide_opaque.png")
+    const black_logo = require("assets/img/arourilogo_wide_opaque.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
     const [logo, setLogo] = React.useState(white_logo);
     const [navbarIsClosed, setNavbarClosed] = React.useState(true);
@@ -127,20 +127,23 @@ function TheNavbar({categories}) {
                                 <p className="">Home</p>
                             </Link>
                         </NavItem>
+                        {/*
                         <NavDropdown title="Radio" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to="/schedule">ΠΡΟΓΡΑΜΜΑ ΕΚΠΟΜΠΩΝ</Link>
                             <Link className="dropdown-item" to="/schedule_autopilot">ΠΡΟΓΡΑΜΜΑ AUTO-PILOT</Link>
                             <Link className="dropdown-item" to="/shows">ΕΚΠΟΜΠΕΣ</Link>
                             <Link className="dropdown-item" to="/members">ΜΕΛΗ</Link>
                         </NavDropdown>
-                        <NavItem>
+                        */}
+                        {/*<NavItem>*/}
                             {/*<Link className="nav-link" to="/chat">*/}
                             {/*    <p className="">CHAT</p>*/}
                             {/*</Link>*/}
-                            <a className="nav-link" href='https://tlk.io/matzore' target="_blank"><p
-                                className="">CHAT</p></a>
+                            {/*<a className="nav-link" href='https://tlk.io/matzore' target="_blank"><p
+                                className="">CHAT</p></a>*/}
 
-                        </NavItem>
+                        {/*</NavItem>*/}
+                        {/*
                         <NavDropdown title="ΑΡΘΡΑ" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to='/articles'>ΟΛΑ ΤΑ ΑΡΘΡΑ</Link>
                             {categories.map((category, i) => (
@@ -155,6 +158,7 @@ function TheNavbar({categories}) {
                                 <p className="">ΕΚΔΗΛΩΣΕΙΣ</p>
                             </Link>
                         </NavItem>
+                        */}
                         <NavItem>
                             <Link className="nav-link" to="/about_us">
                                 <p className="">ABOUT US</p>
