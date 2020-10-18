@@ -26,8 +26,8 @@ import {Link} from "react-router-dom";
 import $ from 'jquery';
 
 function TheNavbar({categories}) {
-    const white_logo = require("assets/img/matzore_logo_white.png")
-    const black_logo = require("assets/img/matzore_logo_black.png")
+    const white_logo = require("assets/img/arourilogo_wide.png")
+    const black_logo = require("assets/img/arourilogo_wide.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
     const [logo, setLogo] = React.useState(white_logo);
     const [navbarIsClosed, setNavbarClosed] = React.useState(true);
@@ -98,9 +98,9 @@ function TheNavbar({categories}) {
                 <div className="navbar-translate">
                     <NavbarBrand tag={Link} to={'/'}
                                  data-placement="bottom"
-                                 title="Ματζόρε FM 89.1">
+                                 title="Ρασταπανκ FM 96.7">
                         <img
-                            alt="Ματζόρε FM 89.1"
+                            alt="Ρασταπανκ FM 96.7"
                             className="img-brand img-no-padding img-responsive"
                             src={logo}
                         />

@@ -1,10 +1,10 @@
 export function get_default_meta({
-                                     title = 'Ματζόρε FM 89,1',
-                                     description = 'Ο σταθμός του Πανεπιστημίου Κρήτης στο Ρέθυμνο',
-                                     image = window.location.protocol + '//matzore.radio.uoc.gr/static/media/matzore_logo_192.f10c1636.png',
+                                     title = 'Ρασταπανκ FM 96.7',
+                                     description = 'Ο σταθμός του Πανεπιστημίου Κρήτης στο Ηράκλειο',
+                                     image = window.location.protocol + '//rastapank.radio.uoc.gr/static/media/rastapank-logo-967_64.png',
                                      type = 'music.radio_station',
                                      url = document.location.href,
-                                     keywords = 'Ματζόρε,matzore,radio,radio station,rethymno,uoc,ρέθυμνο,φοιτητικός σταθμός,Πανεπιστημίου Κρήτης'
+                                     keywords = 'Ρασταπανκ,rastapank,radio,radio station,heraklion,uoc,ηράκλειο,φοιτητικός σταθμός,Πανεπιστημίου Κρήτης'
                                  } = {}
 ) {
     return {
