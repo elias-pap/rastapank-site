@@ -11,6 +11,7 @@ import 'assets/css/schedule.css';
 import Shows from "./views/Shows";
 import Chat from "./views/Chat";
 import AboutUs from "./views/AboutUs";
+import HeraklionDIY from "./views/HeraklionDIY";
 import Members from "./views/Members";
 import Schedule from "./views/Schedule";
 import Events from "./views/Events";
@@ -39,6 +40,8 @@ ReactDOM.render(
                     <Route path='/chat' component={(props) => <Index {...props} key={window.location.pathname}/>}/>
                     {/*<Route path="/chat" render={props =>  <Chat {...props} />}/>*/}
                     <Route path="/about_us" render={props => <AboutUs {...props} />}/>
+                    <Route path="/heraklion_diy" render={props => <HeraklionDIY {...props} />}/>
+                    
                     <Route path="/schedule" render={props => <Schedule {...props} />}/>
                     <Route path="/schedule_autopilot" render={props => <ScheduleAutopilot {...props} />}/>
                     <Route path="/shows" render={props => <Shows {...props} />}/>
