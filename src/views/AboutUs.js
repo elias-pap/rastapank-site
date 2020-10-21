@@ -1,3 +1,4 @@
+// @flow
 import React, {Component} from "react";
 import "assets/css/social_bar.css";
 import {Col, Container, Row} from "reactstrap";
@@ -5,33 +6,40 @@ import {get_default_meta} from "../default_meta";
 import DocumentMeta from "react-document-meta";
 import GoogleMapReact from "google-map-react";
 
-const renderMarkers = (map, maps, lat, lng) => {
-    let marker = new maps.Marker({
-        position: {lat: lat, lng: lng},
-        map,
-        title: ''
-    });
-    return marker;
-};
+import { render } from 'react-dom'
+import L from 'leaflet';
+import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 
-function GMapReact() {
-    let defaultProps = {
-        center: {lat: 35.30846, lng: 25.08119},
-        zoom: 16,
-    };
+type State = {
+    lat: number,
+    lng: number,
+    zoom: number,
+}
 
+class OSMComponent extends Component<{}, State> {
+    state = {
+        lat: 35.30846,
+        lng: 25.08119,
+        zoom: 20,
+      }
+
+    render() {
+    const position = [this.state.lat, this.state.lng]
+    
     return (
-        <div style={{height: '35vh', width: '100%'}}>
-            <GoogleMapReact
-                bootstrapURLKeys={{key: 'AIzaSyBWGv5gzLoXbCnknnoa0V0MOMfBwcUtpik'}}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
-                center={defaultProps.center}
-                yesIWantToUseGoogleMapApiInternals
-                onGoogleApiLoaded={({map, maps}) => renderMarkers(map, maps, defaultProps.center.lat, defaultProps.center.lng)}>
-            </GoogleMapReact>
-        </div>
-    )
+            <Map center={position} zoom={this.state.zoom}>
+            <TileLayer
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            />
+            <Marker  position={position}>
+          <Popup>
+            Lounge & studio του ρασταπανκ
+          </Popup>
+        </Marker>
+            </Map>
+      );
+    }
 }
 
 class AboutUs extends Component {
@@ -67,7 +75,7 @@ class AboutUs extends Component {
                                         <span>Πανεπιστημιούπολη Βουτών, Φοιτητικό Κέντρο</span>
                                         <br/> <br/>
                                         <div style={{width: "100%", height: "100%"}}>
-                                            <GMapReact/>
+                                            <OSMComponent/>
                                         </div>
                                         <h6>ΕΠΙΚΟΙΝΩΝΙΑ</h6>
                                         <span className="">studio: &nbsp;</span>
