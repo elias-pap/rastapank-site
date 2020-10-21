@@ -16,16 +16,16 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React, {Component} from "react";
+import React, { Component } from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
-import {Collapse, Container, Nav, Navbar, NavbarBrand, NavItem} from "reactstrap";
-import {NavDropdown} from 'react-bootstrap';
-import {Link} from "react-router-dom";
+import { Collapse, Container, Nav, Navbar, NavbarBrand, NavItem } from "reactstrap";
+import { NavDropdown } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import $ from 'jquery';
 
-function TheNavbar({categories}) {
+function TheNavbar({ categories }) {
     const white_logo = require("assets/img/arourilogo_wide_opaque.png")
     const black_logo = require("assets/img/arourilogo_wide_opaque.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -54,7 +54,7 @@ function TheNavbar({categories}) {
 
     const scroll_to_main = () => {
         if (window.location.pathname === "/" || window.location.pathname === "/index") {
-            window.scrollTo({top: 0});
+            window.scrollTo({ top: 0 });
         } else {
             $('html, body').animate({
                 scrollTop: $("#content_s").offset().top - 112
@@ -97,8 +97,8 @@ function TheNavbar({categories}) {
             <Container>
                 <div className="navbar-translate">
                     <NavbarBrand tag={Link} to={'/'}
-                                 data-placement="bottom"
-                                 title="Ρασταπανκ FM 96.7">
+                        data-placement="bottom"
+                        title="Ρασταπανκ FM 96.7">
                         <img
                             alt="Ρασταπανκ FM 96.7"
                             className="img-brand img-no-padding img-responsive"
@@ -111,9 +111,9 @@ function TheNavbar({categories}) {
                             toggled: !navbarIsClosed
                         })}
                         onClick={toggleNavbar}>
-                        <span className="navbar-toggler-bar bar1"/>
-                        <span className="navbar-toggler-bar bar2"/>
-                        <span className="navbar-toggler-bar bar3"/>
+                        <span className="navbar-toggler-bar bar1" />
+                        <span className="navbar-toggler-bar bar2" />
+                        <span className="navbar-toggler-bar bar3" />
                     </button>
                 </div>
                 <Collapse
@@ -135,14 +135,23 @@ function TheNavbar({categories}) {
                             <Link className="dropdown-item" to="/members">ΜΕΛΗ</Link>
                         </NavDropdown>
                         */}
-                        {/*<NavItem>*/}
-                            {/*<Link className="nav-link" to="/chat">*/}
-                            {/*    <p className="">CHAT</p>*/}
-                            {/*</Link>*/}
-                            {/*<a className="nav-link" href='https://tlk.io/matzore' target="_blank"><p
-                                className="">CHAT</p></a>*/}
+                        <NavItem>
+                            {/*<Link className="nav-link" to="/chat">
+                                <p className="">CHAT</p>
+                            </Link>*/}
+                            <a className="nav-link" href='https://app.element.io/#/room/#rastapank-live:matrix.org' target="_blank"><p
+                                className="">CHAT</p></a>
 
-                        {/*</NavItem>*/}
+                        </NavItem>
+
+                        <NavDropdown title="Παρελκομενα" id="basic-nav-dropdown">
+                            <a className="dropdown-item" href='https://rastapank.gitlab.io/makrovoutes/' target="_blank">
+                                <div className="">Φεστιβάλ Μακροβούτες<i class="fa fa-external-link" aria-hidden="true" style={{ fontSize: 'small', top: '0px',  marginLeft: '15px' }}></i></div>
+                            </a>
+                            <a className="dropdown-item" href='https://rastapank.gitlab.io/repetition/' target="_blank" style={{paddingTop: '0px'}}>
+                                <div className="">Smash Repetition<i class="fa fa-external-link" aria-hidden="true" style={{ fontSize: 'small', top: '0px',  marginLeft: '15px' }}></i></div>
+                            </a>
+                        </NavDropdown>
                         {/*
                         <NavDropdown title="ΑΡΘΡΑ" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to='/articles'>ΟΛΑ ΤΑ ΑΡΘΡΑ</Link>
@@ -160,6 +169,11 @@ function TheNavbar({categories}) {
                         </NavItem>
                         */}
                         <NavItem>
+                            <Link className="nav-link" to="/heraklion_diy">
+                                <p className="">HERAKLION DIY</p>
+                            </Link>
+                        </NavItem>
+                        <NavItem>
                             <Link className="nav-link" to="/about_us">
                                 <p className="">ABOUT US</p>
                             </Link>
@@ -173,7 +187,7 @@ function TheNavbar({categories}) {
 
 class IndexNavbar extends Component {
     state = {
-        categories: [{'id': 0, 'name': ""}],
+        categories: [{ 'id': 0, 'name': "" }],
     };
 
 
@@ -191,7 +205,7 @@ class IndexNavbar extends Component {
     render() {
         return (
             <>
-                <TheNavbar categories={this.state.categories}/>
+                <TheNavbar categories={this.state.categories} />
             </>
         )
     }
