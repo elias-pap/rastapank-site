@@ -69,7 +69,7 @@ function start_autobahn() {
     }
 
     const connection = new autobahn.Connection({
-        url: window.location.protocol === "http:" ? 'ws://rastapank.radio.uoc.gr:8080/ws' : 'wss://rastapank.radio.uoc.gr:8080/ws',
+        url: 'wss://rastapank.radio.uoc.gr:8080/ws',
         realm: 'metadata-realm',
         authid: "anonymous"
     });

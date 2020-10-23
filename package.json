@@ -3,6 +3,8 @@
   "version": "1.0.2",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "autobahn": "^20.2.1",
     "bootstrap": "^4.4.1",
     "camelcase": "^5.2.0",
@@ -38,6 +40,7 @@
     "react-responsive": "^8.0.3",
     "react-router": "5.0.1",
     "react-router-dom": "5.0.1",
+    "react-rpg": "^2.0.0",
     "react-smooth-scroll": "^0.1.0",
     "reactstrap": "8.0.0",
     "resolve": "1.10.0",

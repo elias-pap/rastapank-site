@@ -4,11 +4,7 @@ import "assets/css/social_bar.css";
 import {Col, Container, Row} from "reactstrap";
 import {get_default_meta} from "../default_meta";
 import DocumentMeta from "react-document-meta";
-import GoogleMapReact from "google-map-react";
-
-import { render } from 'react-dom'
-import L from 'leaflet';
-import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
+import TitlebarGridList from '../components/Cards'
 
 class HeraklionDIY extends Component {
 
@@ -22,7 +18,7 @@ class HeraklionDIY extends Component {
                             <Row>
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="title text-left">Heraklion DIY affiliate projects</h2>
-
+                                    <TitlebarGridList />
                                 </Col>
                             </Row>
                         </Container>

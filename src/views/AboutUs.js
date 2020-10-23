@@ -92,6 +92,15 @@ class AboutUs extends Component {
                                         <a className="btn2" href="https://www.facebook.com/rastapank967">
                                             <i className="fa fa-facebook-f"/>
                                         </a>
+                                        <a className="btn2" href="https://www.instagram.com/rastapank967">
+                                            <i className="fa fa-instagram"/>
+                                        </a>
+                                        <a className="btn2" href="https://twitter.com/rastapank967">
+                                            <i className="fa fa-twitter"/>
+                                        </a>
+                                        <a className="btn2" href="https://www.youtube.com/channel/UCh314hh9K5WV1i697roHh1Q">
+                                            <i className="fa fa-youtube"/>
+                                        </a>
                                         <a className="btn2" href="https://github.com/UoC-Radio">
                                             <i className="fa fa-github"/>
                                         </a>
