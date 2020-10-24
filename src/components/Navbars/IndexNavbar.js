@@ -26,8 +26,8 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 
 function TheNavbar({ categories }) {
-    const white_logo = require("assets/img/arourilogo_wide_opaque.png")
-    const black_logo = require("assets/img/arourilogo_wide_opaque.png")
+    const white_logo = require("assets/img/logo_small.png")
+    const black_logo = require("assets/img/logo_small.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
     const [logo, setLogo] = React.useState(white_logo);
     const [navbarIsClosed, setNavbarClosed] = React.useState(true);
