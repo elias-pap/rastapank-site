@@ -15,13 +15,14 @@ function App() {
 
   const openLightbox = useCallback((event, { photo, index }) => {
     console.log('I was triggered during componentDidMount'+photo.site)
-    setCurrentImage(index);
-    setViewerIsOpen(true);
+    window.open(photo.site)
+    //setCurrentImage(index);
+    //setViewerIsOpen(true);
   }, []);
 
   const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
+    //setCurrentImage(0);
+    //setViewerIsOpen(false);
   };
 
   return (

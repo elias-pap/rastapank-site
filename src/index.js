@@ -37,8 +37,7 @@ ReactDOM.render(
                     <Route exact path='/'
                            component={(props) => <Index {...props} key={window.location.pathname}/>}/>
                     <Route path='/index' component={(props) => <Index {...props} key={window.location.pathname}/>}/>
-                    <Route path='/chat' component={(props) => <Index {...props} key={window.location.pathname}/>}/>
-                    {/*<Route path="/chat" render={props =>  <Chat {...props} />}/>*/}
+                    <Route path="/chat" render={props =>  <Chat {...props} />}/>
                     <Route path="/about_us" render={props => <AboutUs {...props} />}/>
                     <Route path="/heraklion_diy" render={props => <HeraklionDIY {...props} />}/>
                     

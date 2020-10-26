@@ -13,12 +13,16 @@ class ScheduleAutopilot extends Component {
     };
 
     componentDidMount() {
-        fetch('https://matzore-shows.herokuapp.com/api/get_autopillot_schedule')
+        /*fetch('https://matzore-shows.herokuapp.com/api/get_autopillot_schedule')
             .then(res => res.json())
             .then((data) => {
-                this.setState(data);
+                var jsonData = require('../components/schedule_rastapank.json');
+
+                this.setState(jsonData);
             })
-            .catch(console.log);
+            .catch(console.log);*/
+            var jsonData = require('../components/schedule_rastapank.json');
+            this.setState(jsonData);
     }
 
     render() {

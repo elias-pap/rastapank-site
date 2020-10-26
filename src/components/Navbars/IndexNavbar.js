@@ -26,8 +26,8 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 
 function TheNavbar({ categories }) {
-    const white_logo = require("assets/img/logo_small.png")
-    const black_logo = require("assets/img/logo_small.png")
+    const white_logo = require("assets/img/logoweb2.png")
+    const black_logo = require("assets/img/logoweb2.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
     const [logo, setLogo] = React.useState(white_logo);
     const [navbarIsClosed, setNavbarClosed] = React.useState(true);
@@ -127,21 +127,16 @@ function TheNavbar({ categories }) {
                                 <p className="">Home</p>
                             </Link>
                         </NavItem>
-                        {/*
                         <NavDropdown title="Radio" id="basic-nav-dropdown">
-                            <Link className="dropdown-item" to="/schedule">ΠΡΟΓΡΑΜΜΑ ΕΚΠΟΜΠΩΝ</Link>
+                            {/*<Link className="dropdown-item" to="/schedule">ΠΡΟΓΡΑΜΜΑ ΕΚΠΟΜΠΩΝ</Link>*/}
                             <Link className="dropdown-item" to="/schedule_autopilot">ΠΡΟΓΡΑΜΜΑ AUTO-PILOT</Link>
-                            <Link className="dropdown-item" to="/shows">ΕΚΠΟΜΠΕΣ</Link>
-                            <Link className="dropdown-item" to="/members">ΜΕΛΗ</Link>
+                            {/*<Link className="dropdown-item" to="/shows">ΕΚΠΟΜΠΕΣ</Link>
+                            <Link className="dropdown-item" to="/members">ΜΕΛΗ</Link>*/}
                         </NavDropdown>
-                        */}
                         <NavItem>
-                            {/*<Link className="nav-link" to="/chat">
+                            <Link className="nav-link" to="/chat">
                                 <p className="">CHAT</p>
-                            </Link>*/}
-                            <a className="nav-link" href='https://app.element.io/#/room/#rastapank-live:matrix.org' target="_blank"><p
-                                className="">CHAT</p></a>
-
+                            </Link>
                         </NavItem>
 
                         <NavDropdown title="Παρελκομενα" id="basic-nav-dropdown">

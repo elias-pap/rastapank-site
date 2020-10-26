@@ -1,0 +1,631 @@
+{
+  "days": {
+    "1": [
+      "Monday",
+      "\u0394\u03b5\u03c5\u03c4\u03ad\u03c1\u03b1",
+      "Mon"
+    ],
+    "2": [
+      "Tuesday",
+      "\u03a4\u03c1\u03af\u03c4\u03b7",
+      "Tue"
+    ],
+    "3": [
+      "Wednesday",
+      "\u03a4\u03b5\u03c4\u03ac\u03c1\u03c4\u03b7",
+      "Wed"
+    ],
+    "4": [
+      "Thursday",
+      "\u03a0\u03ad\u03bc\u03c0\u03c4\u03b7",
+      "Thu"
+    ],
+    "5": [
+      "Friday",
+      "\u03a0\u03b1\u03c1\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae",
+      "Fri"
+    ],
+    "6": [
+      "Saturday",
+      "\u03a3\u03ac\u03b2\u03b2\u03b1\u03c4\u03bf",
+      "Sat"
+    ],
+    "7": [
+      "Sunday",
+      "\u039a\u03c5\u03c1\u03b9\u03b1\u03ba\u03b7",
+      "Sun"
+    ]
+  },
+  "schedule": {
+    "1": [
+      {
+        "from_time": "00:00:00",
+        "name": "Krautrock"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "Minimalism"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "Experimental Electronica"
+      },
+      {
+        "from_time": "03:00:00",
+        "name": "The Romantics"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "Ambient"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "SouthernFolk Rock"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Mozart invades Britain"
+      },
+      {
+        "from_time": "09:00:00",
+        "name": "Baroque"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Surf Baroque"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "West goes Modal"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "Contemporary Modal"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Tropicatronica"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "Indie"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "The Power of Rock"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "Groovin"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "Jazz Fusion"
+      },
+      {
+        "from_time": "19:00:00",
+        "name": "Afro power"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "Punky Reggae Party"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "World Fusion"
+      },
+      {
+        "from_time": "22:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      }
+    ],
+    "2": [
+      {
+        "from_time": "00:00:00",
+        "name": "\u039d\u03c4\u03b1\u03c1\u03ba\u03af\u03bb\u03b5\u03c2"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "Experimental Dance Music"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "20th Century Classical Music"
+      },
+      {
+        "from_time": "03:00:00",
+        "name": "Contemporary Jazz"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "Futurison"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "Funk"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Lo-fi Sci-High"
+      },
+      {
+        "from_time": "09:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "Every Tuesday is Mardi Gras"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Futurison"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "Groovin"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "Latin Jazz"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "Chillatronica"
+      },
+      {
+        "from_time": "19:00:00",
+        "name": "\u03af\u03bf\u03c5\u03af\u03bf\u03c5 \u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5\u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "Experimental Dance Music"
+      },
+      {
+        "from_time": "22:00:00",
+        "name": "Futurison"
+      }
+    ],
+    "3": [
+      {
+        "from_time": "00:00:00",
+        "name": "Hip-Hop with scratches"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "\u0396\u03b1\u03c0\u03c1\u03ad"
+      },
+      {
+        "from_time": "03:00:00",
+        "name": "\u039a\u03bb\u03b1\u03c3\u03c3\u03b9\u03ba\u03b9\u03c3\u03bc\u03cc\u03c2"
+      },
+      {
+        "from_time": "04:00:00",
+        "name": "Master's of the Grand"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "Jazz Foundation"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "But can you swing? "
+      },
+      {
+        "from_time": "07:00:00",
+        "name": "Latin Jazz"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Indie"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Tropicatronica"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "SouthernFolk Rock"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Bluegrass and Folks"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "The Power of Rock"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "\u039a\u03b1\u03c4\u03c3\u03b1\u03bd\u03c4\u03b1\u03bc\u03c0\u03bf\u03c1\u03ad\u03b3\u03ba\u03b5"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "Futurison"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "Chillatronica"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "World Fusion"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "Groovin"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "Afro power"
+      },
+      {
+        "from_time": "23:00:00",
+        "name": "\u03a1\u03c5\u03b8\u03bc\u03bf\u03af & \u03a1\u03af\u03bc\u03b5\u03c2"
+      }
+    ],
+    "4": [
+      {
+        "from_time": "00:00:00",
+        "name": "Trip-Hop"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "Experimental Electronica"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "Experimental Dance Music"
+      },
+      {
+        "from_time": "03:00:00",
+        "name": "Master's of the Grand"
+      },
+      {
+        "from_time": "04:00:00",
+        "name": "Stoner"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "\u0396\u03b1\u03c0\u03c1\u03ad"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "\u039d\u03c4\u03b1\u03c1\u03ba\u03af\u03bb\u03b5\u03c2"
+      },
+      {
+        "from_time": "07:00:00",
+        "name": "Baroque"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Surf Baroque"
+      },
+      {
+        "from_time": "09:00:00",
+        "name": "Punky Reggae Party"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "World Fusion"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "Gypsy/Balkan"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "West goes Modal"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "Contemporary Modal"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "Bluegrass and Folks"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "Contemporary Jazz"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "SouthernFolk Rock"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "Mozart invades Britain"
+      },
+      {
+        "from_time": "19:00:00",
+        "name": "Traditional Progressive Rock"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "22:00:00",
+        "name": "Post-punk"
+      },
+      {
+        "from_time": "23:00:00",
+        "name": "Alternative"
+      }
+    ],
+    "5": [
+      {
+        "from_time": "00:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "The Progressives"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "The Romantic era"
+      },
+      {
+        "from_time": "03:00:00",
+        "name": "\u039d\u03c4\u03b1\u03c1\u03ba\u03af\u03bb\u03b5\u03c2"
+      },
+      {
+        "from_time": "04:00:00",
+        "name": "\u03af\u03bf\u03c5\u03af\u03bf\u03c5 \u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5\u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "\u039a\u03bb\u03b1\u03c3\u03c3\u03b9\u03ba\u03b9\u03c3\u03bc\u03cc\u03c2"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "Chillatronica"
+      },
+      {
+        "from_time": "07:00:00",
+        "name": "But can you swing? "
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Master's of the Grand"
+      },
+      {
+        "from_time": "09:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Punky Reggae Party"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "World Fusion"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Tropicatronica"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "Funk"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "Jazz Fusion"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "Futurison"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "Afro power"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "23:00:00",
+        "name": "Stoner"
+      }
+    ],
+    "6": [
+      {
+        "from_time": "00:00:00",
+        "name": "Stoner"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "Experimental Dance Music"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "04:00:00",
+        "name": "The Romantics"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "\u0396\u03b1\u03c0\u03c1\u03ad"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "SouthernFolk Rock"
+      },
+      {
+        "from_time": "07:00:00",
+        "name": "Contemporary Modal"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "World Fusion"
+      },
+      {
+        "from_time": "09:00:00",
+        "name": "Funk"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Mozart invades Britain"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "The Power of Rock"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "Guilty Pleasures"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Indie"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "Tropicatronica"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "Futurison"
+      },
+      {
+        "from_time": "18:00:00",
+        "name": "Afro power"
+      },
+      {
+        "from_time": "19:00:00",
+        "name": "Groovinhop"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "\u03af\u03bf\u03c5\u03af\u03bf\u03c5 \u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5\u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "Post-punk"
+      },
+      {
+        "from_time": "22:00:00",
+        "name": "Indie"
+      },
+      {
+        "from_time": "23:00:00",
+        "name": "Ballads"
+      }
+    ],
+    "7": [
+      {
+        "from_time": "00:00:00",
+        "name": "Ballads"
+      },
+      {
+        "from_time": "01:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "02:00:00",
+        "name": "Experimental Dance Music"
+      },
+      {
+        "from_time": "04:00:00",
+        "name": "\u03af\u03bf\u03c5\u03af\u03bf\u03c5 \u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5\u03c4\u03c3\u03bf\u03cd\u03ba\u03bf\u03c5"
+      },
+      {
+        "from_time": "05:00:00",
+        "name": "Chillatronica"
+      },
+      {
+        "from_time": "06:00:00",
+        "name": "Contemporary Modal"
+      },
+      {
+        "from_time": "07:00:00",
+        "name": "Bluegrass and Folks"
+      },
+      {
+        "from_time": "08:00:00",
+        "name": "Gospel"
+      },
+      {
+        "from_time": "10:00:00",
+        "name": "Groovin"
+      },
+      {
+        "from_time": "11:00:00",
+        "name": "Latin Jazz"
+      },
+      {
+        "from_time": "12:00:00",
+        "name": "Master's of the Grand"
+      },
+      {
+        "from_time": "13:00:00",
+        "name": "Serotonin"
+      },
+      {
+        "from_time": "14:00:00",
+        "name": "Post-punk"
+      },
+      {
+        "from_time": "15:00:00",
+        "name": "The Power of Rock"
+      },
+      {
+        "from_time": "16:00:00",
+        "name": "The Progressives"
+      },
+      {
+        "from_time": "17:00:00",
+        "name": "\u03a8\u03c5\u03c7\u03b5\u03b4\u03ad\u03bb\u03b5\u03b9\u03b5\u03c2"
+      },
+      {
+        "from_time": "20:00:00",
+        "name": "Mozart invades Britain"
+      },
+      {
+        "from_time": "21:00:00",
+        "name": "Alternative"
+      },
+      {
+        "from_time": "23:00:00",
+        "name": "Stoner"
+      }
+    ]
+  }
+}
