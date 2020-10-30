@@ -27,7 +27,7 @@ import $ from 'jquery';
 
 function TheNavbar({ categories }) {
     const white_logo = require("assets/img/logoweb2.png")
-    const black_logo = require("assets/img/logoweb2.png")
+    const black_logo = require("assets/img/logoweb2dark.png")
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
     const [logo, setLogo] = React.useState(white_logo);
     const [navbarIsClosed, setNavbarClosed] = React.useState(true);
