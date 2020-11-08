@@ -10,6 +10,7 @@ import 'assets/css/schedule.css';
 // pages
 import Shows from "./views/Shows";
 import Chat from "./views/Chat";
+import Misc from "./views/Misc";
 import AboutUs from "./views/AboutUs";
 import HeraklionDIY from "./views/HeraklionDIY";
 import Members from "./views/Members";
@@ -38,6 +39,7 @@ ReactDOM.render(
                            component={(props) => <Index {...props} key={window.location.pathname}/>}/>
                     <Route path='/index' component={(props) => <Index {...props} key={window.location.pathname}/>}/>
                     <Route path="/chat" render={props =>  <Chat {...props} />}/>
+                    <Route path="/misc" render={props =>  <Misc {...props} />}/>
                     <Route path="/about_us" render={props => <AboutUs {...props} />}/>
                     <Route path="/heraklion_diy" render={props => <HeraklionDIY {...props} />}/>
                     

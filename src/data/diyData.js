@@ -1,13 +1,13 @@
 export const photos = [
 
     {
-        src: require('assets/img/rest_logos/ba_logo.jpg'),
+            src: require('assets/img/rest_logos/ba_logo.jpg'),
             width: 1,
             height: 1,
             site: 'https://ba2037.com/home'
         },
         {
-        src: require('assets/img/rest_logos/da_logo.jpg'),
+            src: require('assets/img/rest_logos/da_logo.jpg'),
             width: 1,
             height: 1,
             site: 'https://www.facebook.com/da.heraklion/'

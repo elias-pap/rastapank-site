@@ -7,7 +7,7 @@ import DocumentMeta from "react-document-meta";
 import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "../components/tileData";
+import { photos } from "../data/diyData";
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -58,12 +58,8 @@ class HeraklionDIY extends Component {
                 <div className="main">
                     <div className="section text-center">
                         <Container>
-                            <Row>
-                                <Col className="ml-auto mr-auto" md="8">
-                                    <h2 className="title text-left">Heraklion DIY affiliate projects</h2>
+                        <h2 className="title text-left">Heraklion DIY affiliate projects</h2>
                                     <App/>
-                                </Col>
-                            </Row>
                         </Container>
                     </div>
                 </div>

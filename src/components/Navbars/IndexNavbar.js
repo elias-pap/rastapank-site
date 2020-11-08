@@ -138,15 +138,11 @@ function TheNavbar({ categories }) {
                                 <p className="">CHAT</p>
                             </Link>
                         </NavItem>
-
-                        <NavDropdown title="Παρελκομενα" id="basic-nav-dropdown">
-                            <a className="dropdown-item" href='https://rastapank.gitlab.io/makrovoutes/' target="_blank">
-                                <div className="">Φεστιβάλ Μακροβούτες<i class="fa fa-external-link" aria-hidden="true" style={{ fontSize: 'small', top: '0px',  marginLeft: '15px' }}></i></div>
-                            </a>
-                            <a className="dropdown-item" href='https://rastapank.gitlab.io/repetition/' target="_blank" style={{paddingTop: '0px'}}>
-                                <div className="">Smash Repetition<i class="fa fa-external-link" aria-hidden="true" style={{ fontSize: 'small', top: '0px',  marginLeft: '15px' }}></i></div>
-                            </a>
-                        </NavDropdown>
+                        <NavItem>
+                            <Link className="nav-link" to="/misc">
+                                <p className="">ΔΡΑΣΕΙΣ & ΑΝΤΙΔΡΑΣΕΙΣ</p>
+                            </Link>
+                        </NavItem>
                         {/*
                         <NavDropdown title="ΑΡΘΡΑ" id="basic-nav-dropdown">
                             <Link className="dropdown-item" to='/articles'>ΟΛΑ ΤΑ ΑΡΘΡΑ</Link>
