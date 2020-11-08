@@ -2,25 +2,28 @@ import React, {Component} from "react";
 import IndexFooter from "../components/Footers/IndexFooter";
 import {Col, Container, Row} from "reactstrap";
 import Moment from "react-moment";
-import marked from 'marked'
+import ReactMarkdown from 'react-markdown'
+import gfm from 'remark-gfm'
 import DocumentMeta from "react-document-meta";
 import {get_default_meta} from "../default_meta";
 import {Link} from "react-router-dom";
+import {articles} from "../data/articles"
 
-function DescriptionMD({description}) {
+/*function DescriptionMD({description}) {
+    console.log(description)
     return (
         <p dangerouslySetInnerHTML={{__html: marked(description)}}></p>
     )
-}
+}*/
 
 function TagsList({tags, category}) {
     if (tags && tags.length) {
         return (
             <div><h4>
-                <span className="badge badge-default m-1">
+                {/*<span className="badge badge-default m-1">
                     <Link className='text-light' style={{fontWeight: 'bold'}}
                           to={'/articles_category/' + category.id}>{category.name}</Link>
-                </span>
+                </span>*/}
                 {tags.map((tag, i) => (
                     <span key={i} className="badge badge-primary m-1">
                         <Link className='text-light' to={'/tag/' + tag.id} title="Δείτε περισσότερα">{tag.name}</Link>
@@ -50,8 +53,8 @@ class Article extends Component {
     state = {
         article: {
             'title': '',
-            'body': '',
-            'cover': require("assets/img/matzore_logo_192.png"),
+            'body': 'empty',
+            'cover': require("assets/img/rastapank-logo-967_192.png"),
             'created_at': '',
             'category': '',
             'authors': [],
@@ -62,12 +65,12 @@ class Article extends Component {
 
     componentDidMount() {
         const {match: {params}} = this.props;
-        fetch('https://matzore-shows.herokuapp.com/api/get_article/' + params.id)
+        /*fetch('https://matzore-shows.herokuapp.com/api/get_article/' + params.id)
             .then(res => {
                 return res.json();
             })
             .then((data) => {
-                data.article.cover = data.article.cover ? data.article.cover : require("assets/img/matzore_logo_192.png");
+                data.article.cover = data.article.cover ? data.article.cover : require("assets/img/rastapank-logo-967_192.png");
                 data.meta = get_default_meta({
                     title: data.article.title,
                     description: data.article.short_description,
@@ -77,7 +80,18 @@ class Article extends Component {
                 this.setState(data);
                 window.dispatchEvent(new CustomEvent('new_page'))
             })
-            .catch(console.log);
+            .catch(console.log);*/
+        var article = articles[params.id];
+        var data = { article: { ...articles[params.id] }};
+
+        fetch(article.src)
+            .then((r) => r.text())
+            .then(text  => {
+                data.article.body = text;
+                data.article.cover = data.article.cover ? data.article.cover : require("assets/img/rastapank-logo-967_192.png");
+                this.setState(data);
+                window.dispatchEvent(new CustomEvent('new_page'))
+            })
     }
 
 
@@ -101,13 +115,13 @@ class Article extends Component {
                                 <Row>
                                     <Col className="ml-auto mr-auto text-left" md={6}>
                                         <TagsList tags={this.state.article.tags}
-                                                  category={this.state.article.category}/>
+                                                  />
                                     </Col>
                                     <Col className="ml-auto mr-auto text-right" md={6}>
                                         <h5>
-                                            {this.state.article.authors.length > 1 ? 'Authors: ' : 'Author: '}
+                                            {/*this.state.article.authors.length > 1 ? 'Authors: ' : 'Author: '*/}
                                             <span>
-                                <AuthorsList authors={this.state.article.authors}/>
+                                {/*<AuthorsList authors={this.state.article.authors}/>*/}
                                     </span>
                                         </h5>
                                         <p>
@@ -123,7 +137,7 @@ class Article extends Component {
                         </div>
                         <Row>
                             <Col className="ml-auto mr-auto text-left" md="12">
-                                <DescriptionMD description={this.state.article.body}/>
+                                <ReactMarkdown plugins={[gfm]} children={this.state.article.body}/>
                             </Col>
                         </Row>
                         <br/>

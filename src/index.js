@@ -48,7 +48,7 @@ ReactDOM.render(
                     <Route path="/shows" render={props => <Shows {...props} />}/>
                     <Route path="/events" render={props => <Events {...props} />}/>
                     <Route path="/members" render={props => <Members {...props} />}/>
-                    <Route path="/articles" render={props => <Articles {...props} />}/>
+                    <Route path="/acts" render={props => <Articles {...props} />}/>
 
                     <Route path='/show/:id'
                            component={(props) => <Show {...props} key={window.location.pathname}/>}/>

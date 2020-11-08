@@ -7,7 +7,9 @@ const ArticlesGrid = ({articles, category}) => {
     if (articles && articles.length)
         return (
             <div className='m-5 justify-content-center'>
-                <div className='m-4'><h2>{category && category.name ? 'Άρθρα: ' + category.name : "Όλα τα Άρθρα"}</h2>
+                {/*<div className='m-4'><h2>{category && category.name ? 'Άρθρα: ' + category.name : "Όλα τα Άρθρα"}</h2>
+                </div>*/}
+                <div className='m-4'><h2>{"Κείμενα"}</h2>
                 </div>
                 <Row>
                     {articles.map((article, i) => (

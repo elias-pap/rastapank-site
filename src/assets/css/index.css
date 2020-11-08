@@ -118,3 +118,5 @@ p {
 {
     filter: brightness(110%);
 }
+
+strong { font-weight: bold; }
