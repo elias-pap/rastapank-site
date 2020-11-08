@@ -23,11 +23,8 @@ class Chat extends Component {
                                     <h5 className="description text-left">
                                     Για τη άμεση επικοινωνία μας χρησιμοποιούμε το ανοιχτό δίκτυο <a href="https://matrix.org/">matrix</a>.
                                     <br/><br/>
-                                    Το δημόσιο κανάλι είναι το <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Μπορείτε να κάνετε join είτε με το matrix account σας ή ως guest.
+                                    Το δημόσιο κανάλι είναι το <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Μπορείτε να κάνετε join με το matrix account σας ή δημιουργώντας έναν αν δε έχετε.
                                     </h5>
-
-                                    
-
                                 </Col>
                             </Row>
                         </Container>
