@@ -11,6 +11,8 @@ import {get_default_meta} from "../default_meta";
 import {Link} from "react-router-dom";
 import {articles} from "../data/articles"
 
+
+const default_article_cover = "https://upload.wikimedia.org/wikipedia/commons/1/16/D%C3%A9tail_de_%22Blah%2C_blah%2C_blah%22_du_studio_Louise_Campbell_%28Maison_du_Danemark%29_%283600301569%29.jpg"
 /*function DescriptionMD({description}) {
     console.log(description)
     return (
@@ -56,7 +58,7 @@ class Article extends Component {
         article: {
             'title': '',
             'body': 'empty',
-            'cover': require("assets/img/rastapank-logo-967_192.png"),
+            'cover': '',
             'created_at': '',
             'category': '',
             'authors': [],
@@ -90,7 +92,7 @@ class Article extends Component {
             .then((r) => r.text())
             .then(text  => {
                 data.article.body = text;
-                data.article.cover = data.article.cover ? data.article.cover : require("assets/img/rastapank-logo-967_192.png");
+                data.article.cover = data.article.cover ? data.article.cover : default_article_cover;
                 this.setState(data);
                 window.dispatchEvent(new CustomEvent('new_page'))
             })

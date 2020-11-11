@@ -21,7 +21,7 @@ const ArticlesGrid = ({articles, category}) => {
                                             style={{maxHeight: 200}}
                                             alt={article.title}
                                             className="img-rounded img-responsive center"
-                                            src={article.cover ? article.cover : "https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"}
+                                            src={article.cover ? article.cover : "https://upload.wikimedia.org/wikipedia/commons/1/16/D%C3%A9tail_de_%22Blah%2C_blah%2C_blah%22_du_studio_Louise_Campbell_%28Maison_du_Danemark%29_%283600301569%29.jpg"}
                                         />
                                     </div>
                                     <div className="card-body">
