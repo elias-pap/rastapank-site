@@ -16,7 +16,7 @@ function getContent(subsection)
     </div>
     <div className="card-body">
         <h4 className="card-subtitle mb-2 text-muted">{subsection.title}</h4>
-        {/*<p className="card-text">{subsection.short_description}</p>*/}
+        {<p className="card-text">{subsection.short_description ? subsection.short_description : ""}</p>}
     </div>
     </>
     );
