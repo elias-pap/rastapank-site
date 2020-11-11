@@ -37,8 +37,8 @@ export const photos =
     },
     {
         src: require('assets/img/events/10.jpg'),
-        width: 1.36,
-        height: 1
+        width: 1,
+        height: 1.4
     },
     {
         src: require('assets/img/events/9.jpg'),
@@ -57,8 +57,8 @@ export const photos =
     },
     {
         src: require('assets/img/events/6.jpg'),
-        width: 2,
-        height: 1
+        width: 1,
+        height: 1.4
     },
     {
         src: require('assets/img/events/5.jpg'),
