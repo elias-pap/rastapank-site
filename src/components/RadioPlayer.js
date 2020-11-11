@@ -13,22 +13,15 @@ function set_image(meta_url) {
         $('#cover').css('background-image', `url(${default_cover})`);
         return
     }
-    let image_url = 'https://coverartarchive.org' + meta_url.replace(/^.*\/\/[^/]+/, '') + '/front-250';
+    let image_url = 'https://coverartarchive.org' + meta_url.replace(/^.*\/\/[^/]+/, '');
     //console.log(image_url)
     $.ajax({
         url: image_url,
         type: 'GET',
         success: function (data) {
-            console.log(data)
-            
-            /*if (data.images && data.images.length) {
-                $('#cover').css('background-image', 'url(' + data.images[0].thumbnails[250] + ')');
-            }*/
-            if (data){ 
-                var src = `data:image/*;base64,${data}`
-                $('#cover').css('background-image', "url(data:image/jpeg;base64," + data + ")");
-            }
-            else
+            if (data.images && data.images.length) {
+                $('#cover').css('background-image', 'url(' + data.images[0].thumbnails.small + ')');
+            } else
                 $('#cover').css('background-image', `url(${default_cover})`);
         },
         error: function (data) {
