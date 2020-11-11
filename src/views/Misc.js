@@ -11,7 +11,7 @@ const default_cover = "https://images.unsplash.com/photo-1534531173927-aeb928d54
 const subsections = [
     {
         title: 'Μακροβούτες',
-        cover: require('assets/img/covers/μακροβούτες_cover.png'),
+        cover: require('assets/img/covers/μακροβούτες_cover.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: 'https://rastapank.gitlab.io/makrovoutes'
     },
