@@ -127,12 +127,11 @@ function TheNavbar({ categories }) {
                                 <p className="">Home</p>
                             </Link>
                         </NavItem>
-                        <NavDropdown title="Radio" id="basic-nav-dropdown">
-                            {/*<Link className="dropdown-item" to="/schedule">ΠΡΟΓΡΑΜΜΑ ΕΚΠΟΜΠΩΝ</Link>*/}
-                            <Link className="dropdown-item" to="/schedule_autopilot">ΠΡΟΓΡΑΜΜΑ AUTO-PILOT</Link>
-                            {/*<Link className="dropdown-item" to="/shows">ΕΚΠΟΜΠΕΣ</Link>
-                            <Link className="dropdown-item" to="/members">ΜΕΛΗ</Link>*/}
-                        </NavDropdown>
+                        <NavItem>
+                            <Link className="nav-link" to="/radio">
+                                <p className="">Radio</p>
+                            </Link>
+                        </NavItem>
                         <NavItem>
                             <Link className="nav-link" to="/chat">
                                 <p className="">CHAT</p>
