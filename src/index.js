@@ -14,6 +14,7 @@ import Misc from "./views/Misc";
 import AboutUs from "./views/AboutUs";
 import HeraklionDIY from "./views/HeraklionDIY";
 import Members from "./views/Members";
+import Radio from "./views/Radio";
 import Schedule from "./views/Schedule";
 import Events from "./views/Events";
 import Event from "./views/Event";
@@ -42,7 +43,7 @@ ReactDOM.render(
                     <Route path="/misc" render={props =>  <Misc {...props} />}/>
                     <Route path="/about_us" render={props => <AboutUs {...props} />}/>
                     <Route path="/heraklion_diy" render={props => <HeraklionDIY {...props} />}/>
-                    
+                    <Route path="/radio" render={props => <Radio {...props} />}/>
                     <Route path="/schedule" render={props => <Schedule {...props} />}/>
                     <Route path="/schedule_autopilot" render={props => <ScheduleAutopilot {...props} />}/>
                     <Route path="/shows" render={props => <Shows {...props} />}/>

@@ -10,12 +10,12 @@ class Shows extends Component {
     };
 
     componentDidMount() {
-        fetch('https://matzore-shows.herokuapp.com/api/get_shows')
+        /*fetch('https://matzore-shows.herokuapp.com/api/get_shows')
             .then(res => res.json())
             .then((data) => {
                 this.setState(data);
             })
-            .catch(console.log);
+            .catch(console.log);*/
     }
 
     render() {
@@ -23,7 +23,8 @@ class Shows extends Component {
             <DocumentMeta {...get_default_meta({title: 'Εκπομπές'})}>
                 {window.dispatchEvent(new CustomEvent('new_page'))}
                 <div className="main">
-                    <ShowsGrid shows={this.state.shows}/>
+                    <h4 className='m-4'>Work in progress</h4>
+                    {/*<ShowsGrid shows={this.state.shows}/>*/}
                 </div>
                 <IndexFooter/>
             </DocumentMeta>
