@@ -27,7 +27,7 @@ class ScheduleAutopilot extends Component {
 
     render() {
         return (
-            <DocumentMeta {...get_default_meta({title: 'Πρόγραμμα Εκπομπών'})}>
+            <DocumentMeta {...get_default_meta({title: 'Πρόγραμμα Autopilot'})}>
                 {window.dispatchEvent(new CustomEvent('new_page'))}
                 <div className="main">
                     <Container>
