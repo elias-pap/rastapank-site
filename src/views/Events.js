@@ -25,7 +25,7 @@ function App() {
     };
   
     return (
-      <div>
+      <div style={{marginBottom: 40}}>
         <Gallery photos={photos} onClick={openLightbox} />
         <ModalGateway>
           {viewerIsOpen ? (
