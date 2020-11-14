@@ -7,7 +7,6 @@ import "./../assets/css/radio_player.css"
 const default_cover = 'https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
 const isObjectEmpty = obj => Object.values(obj).every(val => typeof val === "undefined")
 
-
 function set_image(meta_url) {
     if (meta_url === "") {
         $('#cover').css('background-image', `url(${default_cover})`);
@@ -37,6 +36,8 @@ function start_autobahn() {
     function set_meta_autopilot(data) {
         let metadata = $.parseJSON(data);
         if (metadata.songTitle && metadata.artist) {
+            var subtitle = 'Ακούτε ' + metadata.slotTitle + '<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
+            $('.presentation-subtitle').html(subtitle);
             $('.radio_title').html(metadata.songTitle);
             $('.radio_artist').html(metadata.artist);
             $('.radio_album').html(`<a class="album" href=${metadata.metadata_url}>${metadata.albumTitle}</a> <br/>`);
@@ -114,7 +115,6 @@ function play_btn() {
     }
 }
 
-
 function RadioPlayer() {
     const [music_card_playing, set_music_card_playing] = useState({'music_card': 'music-card', 'play_btn': 'play'});
 
@@ -171,6 +171,7 @@ function RadioPlayer() {
             <div id="play_btn">
                 <div id="player_icon" onClick={play_btn} className={music_card_playing.play_btn}/>
             </div>
+            <h2  className="presentation-subtitle text-center"></h2>
         </div>
 
     );
