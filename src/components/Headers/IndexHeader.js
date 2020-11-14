@@ -18,9 +18,9 @@ function IndexHeader() {
                         <div className="title-brand">
                             <RadioPlayer/>
                         </div>
-                        <h2  className="presentation-subtitle text-center">
+                        {/*<h2  className="presentation-subtitle text-center">
                             Ο σταθμός του Πανεπιστημίου Κρήτης στο Ηράκλειο
-                        </h2>
+                        </h2>*/}
                     </Container>
                 </div>
 
