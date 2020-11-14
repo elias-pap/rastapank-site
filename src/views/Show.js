@@ -5,6 +5,7 @@ import marked from "marked";
 import DocumentMeta from "react-document-meta";
 import {get_default_meta} from "../default_meta";
 import {Link} from "react-router-dom";
+import {shows} from "../data/shows"
 
 function Social({social, link}) {
     switch (social) {
@@ -19,6 +20,10 @@ function Social({social, link}) {
         case 'twitter':
             return (<a className="btn2" href={link}>
                 <i className="fa fa-twitter"/>
+            </a>);
+        case 'email':
+            return (<a className="btn2" href={'mailto:'+link}>
+                <i className="fa fa-envelope"/>
             </a>);
         default:
             return (<></>)
@@ -38,7 +43,8 @@ function MembersList({producers: members}) {
             <div>
                 <h3>Μουσικοί παραγωγοί</h3>
                 {members.map((member, i) => (
-                    <h5 key={i}><Link to={'/member/' + member.id}>{member.name}</Link></h5>
+                    <h5 key={i}>{member.name}</h5>
+                    /*<h5 key={i}><Link to={'/member/' + member.id}>{member.name}</Link></h5>*/
                 ))}
             </div>
         );
@@ -71,7 +77,7 @@ class Show extends Component {
             'facebook': '',
             'instagram': '',
             'twitter': '',
-            'logo': require("assets/img/matzore_logo_192.png"),
+            'logo': require("assets/img/rastapank-logo-967_192.png"),
             'members': [],
             'scheduled': [],
         },
@@ -80,7 +86,7 @@ class Show extends Component {
 
     componentDidMount() {
         const {match: {params}} = this.props;
-        fetch('https://matzore-shows.herokuapp.com/api/get_show/' + params.id)
+        /*fetch('https://matzore-shows.herokuapp.com/api/get_show/' + params.id)
             .then(res => {
                 return res.json();
             })
@@ -94,7 +100,13 @@ class Show extends Component {
                 this.setState(data);
                 window.dispatchEvent(new CustomEvent('new_page'))
             })
-            .catch(console.log);
+            .catch(console.log);*/
+        
+        var show = shows[params.id];
+        var data = { show: { ...shows[params.id] }};
+        this.setState(data);
+        window.dispatchEvent(new CustomEvent('new_page'))
+        
     }
 
     render() {
@@ -118,9 +130,14 @@ class Show extends Component {
                             </div>
                         </div>
                         <div className="middle">
-                            <Social social='facebook' link={this.state.show.facebook}/>
-                            <Social social='instagram' link={this.state.show.instagram}/>
-                            <Social social='twitter' link={this.state.show.twitter}/>
+                            {this.state.show.facebook && this.state.show.facebook.length > 0 ? 
+                            <Social social='facebook' link={this.state.show.facebook}/> : <></>}
+                            {this.state.show.instagram && this.state.show.instagram.length > 0 ? 
+                            <Social social='instagram' link={this.state.show.instagram}/> : <></>}
+                            {this.state.show.twitter && this.state.show.twitter.length > 0 ? 
+                            <Social social='twitter' link={this.state.show.twitter}/> : <></>}
+                            {this.state.show.email && this.state.show.email.length > 0 ? 
+                            <Social social='email' link={this.state.show.email}/> : <></>}
                         </div>
                         <Row>
                             <Col className="ml-auto mr-auto text-center" md="6">

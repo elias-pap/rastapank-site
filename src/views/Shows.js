@@ -3,6 +3,7 @@ import ShowsGrid from "components/Grids/ShowsGrid";
 import IndexFooter from "../components/Footers/IndexFooter";
 import {get_default_meta} from "../default_meta";
 import DocumentMeta from "react-document-meta";
+import {shows} from "../data/shows"
 
 class Shows extends Component {
     state = {
@@ -23,8 +24,7 @@ class Shows extends Component {
             <DocumentMeta {...get_default_meta({title: 'Εκπομπές'})}>
                 {window.dispatchEvent(new CustomEvent('new_page'))}
                 <div className="main">
-                    <h4 className='m-4'>Work in progress</h4>
-                    {/*<ShowsGrid shows={this.state.shows}/>*/}
+                    {<ShowsGrid shows={shows}/>}
                 </div>
                 <IndexFooter/>
             </DocumentMeta>
