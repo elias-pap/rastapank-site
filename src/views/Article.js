@@ -11,7 +11,6 @@ import {get_default_meta} from "../default_meta";
 import {Link} from "react-router-dom";
 import {articles} from "../data/articles"
 
-
 const default_article_cover = "https://upload.wikimedia.org/wikipedia/commons/1/16/D%C3%A9tail_de_%22Blah%2C_blah%2C_blah%22_du_studio_Louise_Campbell_%28Maison_du_Danemark%29_%283600301569%29.jpg"
 /*function DescriptionMD({description}) {
     console.log(description)
@@ -141,7 +140,9 @@ class Article extends Component {
                         </div>
                         <Row>
                             <Col className="ml-auto mr-auto text-left" md="12">
-                                <ReactMarkdown plugins={[[gfm]]} children={this.state.article.body}/>
+                                <div className="markD">
+                                    <ReactMarkdown plugins={[[gfm]]} children={this.state.article.body}/>
+                                </div>
                             </Col>
                         </Row>
                         <br/>

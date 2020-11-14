@@ -22,6 +22,17 @@ export const articles = [
         id: 1
     },
     {
+        src: require('data/articles/redpul.md'),
+        title: 'Red πουλ.',
+        created_at: 'Fri, 29 Mar 2019 12:00:00 GMT',
+        tags: [ 
+            { id: 0, name: 'ΦΚ'},
+            { id: 1, name: 'εταιρία'}
+            ],
+        short_description: 'Παρέμβαση για τη διενέργεια διαφημιστικής καμπάνιας απο ιδιωτική εταιρία στο ΦΚ.',
+        id: 2
+    },
+    {
         src: require('data/articles/makro19.md'),
         title: 'Μακροβούτες 2019',
         created_at: 'Mon, 11 Mar 2019 12:00:00 GMT',
@@ -30,7 +41,7 @@ export const articles = [
             { id: 1, name: 'κάλεσμα'}
             ],
         short_description: 'Κάλεσμα για τις μακροβούτες του 2019',
-        id: 2
+        id: 3
     },
     {
         src: require('data/articles/enisa.md'),
@@ -42,6 +53,6 @@ export const articles = [
             { id: 2, name: 'enisa'}
             ],
         short_description: 'Κείμενο παρεμβασης για τις κτιριακές προτεραιότητες στο ΠΚ',
-        id: 3
+        id: 4
     }
 ]

@@ -119,4 +119,13 @@ p {
     filter: brightness(110%);
 }
 
-strong { font-weight: bold; }
+.markD strong { font-weight: bold; }
+
+.markD li { font-size: 17px; }
+
+.markD p 
+{
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
