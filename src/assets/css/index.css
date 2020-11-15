@@ -109,6 +109,10 @@ p {
     height: 35vh;
   }
 
+.footer  {
+    color: #242020 !important;
+}
+
 .react-photo-gallery--gallery img
 {
     border-radius: 4px;

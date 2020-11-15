@@ -1,7 +1,7 @@
 export const shows =
 [
     {
-        "description": "μουσικοενημερωτική ινστρουμένταλ όπερα",
+        "description": "Η εκπομπή προς το παρόν θα εμφανίζεται τυχαίες ώρες και μέρες.",
         "email": "asmolf@gmail.com",
         "facebook": "",
         "id": 0,
@@ -17,7 +17,7 @@ export const shows =
         ],
         "name": "Welcome to Cretijuana",
         "scheduled": [],
-        "short_description": "ρακί ελιά και πατιχουάνα",
+        "short_description": "μουσικοενημερωτική ινστρουμένταλ όπερα",
         "twitter": ""
     }
 ]
