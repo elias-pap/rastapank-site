@@ -68,7 +68,7 @@ class Articles extends Component {
                     <ArticlesGrid articles={this.state.articles} category={this.state.category}/>
                     <div className='m-5 justify-content-center'>
                     <div className='m-4'>
-                    <h2 className="title text-left">Ζωγραφιές</h2>
+                    <h2 className="title text-left">Μούλτιμύδια</h2>
                     <App/>
                     </div></div>
                 </div>
