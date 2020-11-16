@@ -19,9 +19,7 @@ export const shows =
         "scheduled": [],
         "short_description": "μουσικοενημερωτική ινστρουμένταλ όπερα",
         "twitter": ""
-    }
-]
-[
+    },
     {
         "description": "",
         "email": "xkaloter@gmail.com ",
