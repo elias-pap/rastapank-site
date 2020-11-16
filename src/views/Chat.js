@@ -21,9 +21,9 @@ class Chat extends Component {
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="title text-left">Chat</h2>
                                     <h5 className="description text-left">
-                                    Για τη άμεση επικοινωνία μας χρησιμοποιούμε το ανοιχτό δίκτυο <a href="https://matrix.org/">matrix</a>.
+                                    Μπείτε στο κανάλι <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a> για λάϊβ τσατ. Θα χρειαστεί να γραφτείτε στην πλατφόρμα για να συμμετέχετε στη κουβέντα.
                                     <br/><br/>
-                                    Το δημόσιο κανάλι είναι το <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Μπορείτε να κάνετε join με το matrix account σας ή δημιουργώντας έναν αν δε έχετε.
+                                    Στο ρασταπάνκ χρησιμοποιούμε το ανοιχτό πρωτόκολλο επικοινωνίας του<a href="https://matrix.org/">matrix</a>. Το element στο οποίο βρίσκεται το δημόσιο κανάλι είναι μία από τις πλατφόρμες ελεύθερου λογισμικού που υλοποιεί το συγκεκριμένο πρωτόκολλο.
                                     </h5>
                                 </Col>
                             </Row>
