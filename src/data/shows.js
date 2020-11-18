@@ -19,21 +19,19 @@ export const shows =
         "scheduled": [],
         "short_description": "μουσικοενημερωτική ινστρουμένταλ όπερα",
         "twitter": ""
-    }
-]
-[
+    },
     {
         "description": "",
         "email": "xkaloter@gmail.com ",
         "facebook": "https://www.facebook.com/xrhsihda",
-        "id": 0,
+        "id": 1,
         "instagram": "",
         "logo": require('./shows/cajuela_majica.jpg'),
         "members": [
              {
                 "avatar": "",
                 "bio": "",
-                "id": 0,
+                "id": 1,
                 "name": "Χρύσα"
             }
         ],
