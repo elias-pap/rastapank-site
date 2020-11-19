@@ -21,7 +21,7 @@ class Chat extends Component {
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="title text-left">Chat</h2>
                                     <h5 className="description text-left">
-                                    To live chat βρίσκεται στο κανάλι <h3><a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a></h3>. Θα χρειαστεί να εγγραφείτε δίνοντας username/password για να συμμετέχετε στη κουβέντα.
+                                    To live chat βρίσκεται στο κανάλι <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Θα χρειαστεί να εγγραφείτε δίνοντας username/password για να συμμετέχετε στη κουβέντα.
                                     <br/><br/>
                                     Στο ρασταπάνκ χρησιμοποιούμε το ανοιχτό πρωτόκολλο επικοινωνίας του <a href="https://matrix.org/">matrix</a>. Η πλατφόρμα ελεύθερου λογισμικού που υλοποιεί το πρωτόκολλο και φιλοξενεί το κανάλι μας ονομάζεται element. Σόρυ για το χάομα.
                                     </h5>
