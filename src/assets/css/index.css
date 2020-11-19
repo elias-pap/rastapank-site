@@ -109,9 +109,6 @@ p {
     height: 35vh;
   }
 
-.footer  {
-    color: #242020 !important;
-}
 
 .react-photo-gallery--gallery img
 {
@@ -132,4 +129,8 @@ p {
     margin-bottom: 20px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.bg-dark  {
+    background-color: #242020 !important;
 }
