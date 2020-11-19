@@ -27,12 +27,14 @@ function IndexFooter() {
                     <Col md="6">
                         <div className='m-3'>
                             <div className="credits center">
-                        <span className="copyright">
-                          © {new Date().getFullYear()}
-                            <i className="fa fa-music heart" style={{position: "unset"}}/>
-                            Made by rastapank 96.7 (based on matzore fm 89.1)
+                                <span className="copyright">
+                                © {new Date().getFullYear()}
+                                    <i className="fa fa-music heart" style={{position: "unset"}}/>
+                                    Made by rastapank 96.7 (based on matzore fm 89.1)
+                                    <br/>
+                                    Το περιεχόμενο του site διατίθεται υπό την άδεια CC BY-NC-SA
 
-                        </span>
+                                </span>
                             </div>
                             <div className="center">
                                 <div className="middle">
