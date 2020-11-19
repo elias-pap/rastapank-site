@@ -39,16 +39,14 @@ export const shows =
         "scheduled": [],
         "short_description": "Μουσικές του Κόσμου",
         "twitter": ""
-    }
-]
-[
+    },
     {
         "description": "Το Teenage Kicks είναι ένα πρόγραμμα ποικίλης μουσικής: rock, μπλουζ, electro, dub, παγκόσμια μουσική, experimental ... ο κατάλογος των μουσικών στυλ δεν είναι εξαντλητικός. Τα ραδιοφωνικά προγράμματα σπάνια βλέπουν αυτά τα τραγούδια και γι 'αυτό η εκπομπή αυτή πρόκειται να τα κάνει να ανακαλύψουν. Οι έφηβοι θα μεταφερθούν πιο κοντά στις συνόδους του Peel του John Peel στο BBC Radio 1 από το 1991 έως το 2004. Μετά από επτά χρόνια στην Αγγλία και 16 χρόνια στη Γαλλία, μετακόμισα στο Ηράκλειο το 2016. Μιλάω άπταιστα Γαλλικά / Αγγλικά / Ρουμανικά και προσπαθώ να βελτιώσω στα ελληνικά. Άρχισα να ακούω μουσική στο ραδιόφωνο με το BBC World Service στα εφηβικά μου χρόνια. Στην Αγγλία και τη Γαλλία, παρακολούθησα εκατοντάδες συναυλίες και ανακάλυψα μια μεγάλη ποικιλία ήχων. Πήγα τακτικά σε μουσικά φεστιβάλ σε όλη τη Δυτική Ευρώπη για να ανακαλύψω νέους ήχους.",
         "email": "noroc69@gmail.com",
         "facebook": "https://www.facebook.com/djnoroc/",
-        "id": 0,
+        "id": 2,
         "instagram": "",
-        "logo": require(''),
+        "logo": require('./shows/dj_noroc.jpg'),
         "members": [
              {
                 "avatar": "",
@@ -61,16 +59,14 @@ export const shows =
         "scheduled": [],
         "short_description": "",
         "twitter": ""
-    }
-]
-[
+    },
     {
         "description": "",
         "email": "",
         "facebook": "",
-        "id": 0,
+        "id": 3,
         "instagram": "",
-        "logo": require(''),
+        "logo": require('./shows/live_evil.jpg'),
         "members": [
              {
                 "avatar": "",
@@ -83,16 +79,14 @@ export const shows =
         "scheduled": [],
         "short_description": "",
         "twitter": ""
-    }
-]
-[
+    },
     {
         "description": "",
         "email": "",
         "facebook": "",
-        "id": 0,
+        "id": 4,
         "instagram": "",
-        "logo": require(''),
+        "logo": require('./shows/sunshine_project.jpg'),
         "members": [
              {
                 "avatar": "",

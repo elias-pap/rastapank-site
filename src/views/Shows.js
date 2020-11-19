@@ -24,7 +24,7 @@ class Shows extends Component {
             <DocumentMeta {...get_default_meta({title: 'Εκπομπές'})}>
                 {window.dispatchEvent(new CustomEvent('new_page'))}
                 <div className="main">
-                    {<ShowsGrid shows={shows}/>}
+                    <ShowsGrid shows={shows}/>
                 </div>
                 <IndexFooter/>
             </DocumentMeta>
