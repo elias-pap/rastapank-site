@@ -141,7 +141,7 @@ function RadioPlayer() {
             useFastPolling: true,
             useHighPerformance: true,
             id: 'Radio',
-            url: ['http://rs.radio.uoc.gr:8000/uoc_128.ogg', 'http://rs.radio.uoc.gr:8000/uoc_128.mp3'],
+            url: ['https://rastapank.radio.uoc.gr:8443/rastapank.ogg', 'http://rs.radio.uoc.gr:8000/uoc_128.mp3'],
             bufferTime: 9,
             onstop: function () {
                 set_icon(-1, set_music_card_playing)
