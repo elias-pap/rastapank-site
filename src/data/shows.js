@@ -61,7 +61,7 @@ export const shows =
         "twitter": ""
     },
     {
-        "description": "",
+        "description": "Εκπομπή για το μέταλ σε όλες τις εκφάνσεις του. Σεμνή και καθώς πρέπει...",
         "email": "",
         "facebook": "",
         "id": 3,
@@ -81,7 +81,7 @@ export const shows =
         "twitter": ""
     },
     {
-        "description": "",
+        "description": "Βουτιά στους ξέφρενους ρυθμούς της swing και στην μεγάλη μουσική παράδοση της τζαζ! Το \"the Sunshine Project\" έχει βάλει τα δυνατά του για να κάνει τα απογεύματα μας λίγο πιο ηλιόλουστα..",
         "email": "",
         "facebook": "",
         "id": 4,
