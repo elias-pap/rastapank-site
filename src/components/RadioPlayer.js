@@ -3,6 +3,7 @@ import $ from 'jquery';
 import {soundManager} from "soundmanager2/script/soundmanager2-nodebug-jsmin"
 import autobahn from "autobahn"
 import "./../assets/css/radio_player.css"
+import {shows} from "../data/shows"
 
 const default_cover = 'https://images.unsplash.com/photo-1534531173927-aeb928d54385?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
 const isObjectEmpty = obj => Object.values(obj).every(val => typeof val === "undefined")
@@ -33,30 +34,34 @@ function set_image(meta_url) {
 
 function start_autobahn() {
 
-    function set_meta_autopilot(data) {
-        let metadata = $.parseJSON(data);
+    function set_meta_autopilot(metadata) {
         if (metadata.songTitle && metadata.artist) {
             var subtitle = 'Ακούτε ' + metadata.slotTitle + '<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
             $('.presentation-subtitle').html(subtitle);
             $('.radio_title').html(metadata.songTitle);
             $('.radio_artist').html(metadata.artist);
-            $('.radio_album').html(`<a class="album" href=${metadata.metadata_url}>${metadata.albumTitle}</a> <br/>`);
+            $('.radio_album').html(`<a class="album" href=${metadata.metadata_url} target="_blank">${metadata.albumTitle}</a> <br/>`);
             set_image(metadata.metadata_url)
         }
     }
 
-    function set_meta_show(data) {
+    function set_meta_show(metadata) {
+        var show = shows[parseInt(metadata.producerName) - 1];
+
+        var subtitle = 'Ακούτε την εκπομπή ' + show.name + ' (by ' + show.members[0].name + ')<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
+        $('.presentation-subtitle').html(subtitle);
+
         $('.radio_title').html("Show on air");
-        $('.radio_artist').html(data.message);
-        $('.radio_album').html(`<a class="album" href=/show/${data.show_id} target="_blank">${data.name}</a> <br/>`);
-        if (data.cover)
-            $('#cover').css('background-image', `url(${data.cover})`);
+        $('.radio_album').html("");
+        $('.radio_artist').html("");
+        if (show.logo)
+            $('#cover').css('background-image', `url(${show.logo})`);
         else
             $('#cover').css('background-image', `url(${default_cover})`);
 
     }
 
-    function set_meta(data_autopilot) {
+    function set_meta(data) {
         /*$.getJSON('https://matzore-shows.herokuapp.com/api/get_show_playing', (data_show) => {
             if (data_show && !isObjectEmpty(data_show))
                 set_meta_show(data_show);
@@ -65,8 +70,12 @@ function start_autobahn() {
         }).fail(() => {
             
         });*/
+        let metadata = $.parseJSON(data);
 
-        set_meta_autopilot(data_autopilot)
+        if (metadata.producerName == 'Autopilot')
+            set_meta_autopilot(metadata)
+        else
+            set_meta_show(metadata)
 
     }
 

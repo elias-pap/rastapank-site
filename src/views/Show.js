@@ -102,8 +102,7 @@ class Show extends Component {
             })
             .catch(console.log);*/
         
-        var show = shows[params.id];
-        var data = { show: { ...shows[params.id] }};
+        var data = { show: { ...shows[parseInt(params.id) - 1] }};
         this.setState(data);
         window.dispatchEvent(new CustomEvent('new_page'))
         
