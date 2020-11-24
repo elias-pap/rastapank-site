@@ -99,5 +99,25 @@ export const shows =
         "scheduled": [],
         "short_description": "",
         "twitter": ""
+    },
+    {
+        "description": "μαζευόμαστε να μιλήσουμε για την έμφυλη βία, την δυστυχώς επίκαιρη και τόσο διαχρονική... Προσπαθούμε να βρούμε η μία την άλλη και να σπάσουμε τις σιωπές... ΚΑΜΙΑ ΜΟΝΗ ΚΑΜΙΑ ΛΙΓΟΤΕΡΗ",
+        "email": "",
+        "facebook": "",
+        "id": 6,
+        "instagram": "",
+        "logo": require('./shows/kamia_moni.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Καμία λιγότερη"
+            }
+        ],
+        "name": "Καμία μόνη",
+        "scheduled": [],
+        "short_description": "",
+        "twitter": ""
     }
 ]
