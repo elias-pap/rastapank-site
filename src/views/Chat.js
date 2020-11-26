@@ -5,6 +5,7 @@ import {get_default_meta} from "../default_meta";
 import DocumentMeta from "react-document-meta";
 import {Col, Container, Row} from "reactstrap";
 
+
 class Chat extends Component {
     componentDidMount() {
         dispatchEvent(new Event('load'));
@@ -21,9 +22,9 @@ class Chat extends Component {
                                 <Col className="ml-auto mr-auto" md="8">
                                     <h2 className="title text-left">Chat</h2>
                                     <h5 className="description text-left">
-                                    To live chat βρίσκεται στο κανάλι <a href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Θα χρειαστεί να εγγραφείτε δίνοντας username/password για να συμμετέχετε στη κουβέντα.
+                                    To live chat βρίσκεται στο κανάλι <a target="_blank" href="https://app.element.io/#/room/#rastapank-live:matrix.org">#rastapank-live:matrix.org</a>. Θα χρειαστεί να εγγραφείτε δίνοντας username/password για να συμμετέχετε στη κουβέντα.
                                     <br/><br/>
-                                    Στο ρασταπάνκ χρησιμοποιούμε το ανοιχτό πρωτόκολλο επικοινωνίας του <a href="https://matrix.org/">matrix</a>. Η πλατφόρμα ελεύθερου λογισμικού που υλοποιεί το πρωτόκολλο και φιλοξενεί το κανάλι μας ονομάζεται element. Σόρυ για το χάομα.
+                                    Στο ρασταπάνκ χρησιμοποιούμε το ανοιχτό πρωτόκολλο επικοινωνίας του <a target="_blank" href="https://matrix.org/">matrix</a>. Η πλατφόρμα ελεύθερου λογισμικού που υλοποιεί το πρωτόκολλο και φιλοξενεί το κανάλι μας ονομάζεται element. Σόρυ για το χάομα.
                                     </h5>
                                 </Col>
                             </Row>

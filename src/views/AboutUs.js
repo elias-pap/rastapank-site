@@ -77,29 +77,29 @@ class AboutUs extends Component {
                                         </div>
                                         <h6>ΕΠΙΚΟΙΝΩΝΙΑ</h6>
                                         <span className="">studio: &nbsp;</span>
-                                        <span className="text-muted subscribe-line">2810-394894</span>
+                                        <span className="text-muted subscribe-line">< a target="_blank" href="callto:+302810394894">2810-394894</a></span>
                                         <br/>
                                         <span className="">email: &nbsp;</span>
-                                        <span className="text-muted subscribe-line">radio@culture.uoc.gr</span>
+                                        <span className="text-muted subscribe-line">< a target="_blank" href="mailto:radio@culture.uoc.gr">radio@culture.uoc.gr</a></span>
                                     </div>
                                 </Col>
                             </Row>
                             <Row>
                                 <div className="col-sm-12">
                                     <div className="middle">
-                                        <a className="btn2" href="https://www.facebook.com/rastapank967">
+                                        <a className="btn2" target="_blank" href="https://www.facebook.com/rastapank967">
                                             <i className="fa fa-facebook-f"/>
                                         </a>
-                                        <a className="btn2" href="https://www.instagram.com/rastapank967">
+                                        <a className="btn2" target="_blank" href="https://www.instagram.com/rastapank967">
                                             <i className="fa fa-instagram"/>
                                         </a>
-                                        <a className="btn2" href="https://twitter.com/rastapank967">
+                                        <a className="btn2" target="_blank" href="https://twitter.com/rastapank967">
                                             <i className="fa fa-twitter"/>
                                         </a>
-                                        <a className="btn2" href="https://www.youtube.com/channel/UCh314hh9K5WV1i697roHh1Q">
+                                        <a className="btn2" target="_blank" href="https://www.youtube.com/channel/UCh314hh9K5WV1i697roHh1Q">
                                             <i className="fa fa-youtube"/>
                                         </a>
-                                        <a className="btn2" href="https://github.com/UoC-Radio">
+                                        <a className="btn2" target="_blank" href="https://github.com/UoC-Radio">
                                             <i className="fa fa-github"/>
                                         </a>
                                     </div>
