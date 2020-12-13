@@ -1,7 +1,7 @@
 export const shows =
 [
     {
-        "description": "Η εκπομπή προς το παρόν θα εμφανίζεται τυχαίες ώρες και μέρες μέχρι να φτιάξει η φάση με το νετ στο σπίτι.",
+        "description": "Κάθε Τετάρτη στις 22:00. Με την Τζούλια Φλογέρα και το Central Scrut.",
         "email": "asmolf@gmail.com",
         "facebook": "",
         "id": 1,
