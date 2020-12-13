@@ -81,6 +81,26 @@ export const shows =
         "twitter": ""
     },
     {
+        "description": "Στο λινκ μπορείτε να βρείτε το αρχείο του rastatech. https://anchor.fm/rastatech/episodes/RastaTech-17---emqi3s",
+        "email": "",
+        "facebook": "",
+        "id": 3,
+        "instagram": "",
+        "logo": require('./shows/rastatech.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Alex & Greg"
+            }
+        ],
+        "name": "Rastatech",
+        "scheduled": [],
+        "short_description": "Podcast τεχνολογικής επικαιρότητας",
+        "twitter": "https://twitter.com/RastaPodcast"
+    },
+    {
         "description": "Βουτιά στους ξέφρενους ρυθμούς της swing και στην μεγάλη μουσική παράδοση της τζαζ! Το \"the Sunshine Project\" έχει βάλει τα δυνατά του για να κάνει τα απογεύματα μας λίγο πιο ηλιόλουστα..",
         "email": "",
         "facebook": "",
