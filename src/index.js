@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route, Switch, Link} from "react-router-dom";
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss";
@@ -50,6 +50,7 @@ ReactDOM.render(
                     <Route path="/events" render={props => <Events {...props} />}/>
                     <Route path="/members" render={props => <Members {...props} />}/>
                     <Route path="/acts" render={props => <Articles {...props} />}/>
+                 
 
                     <Route path='/show/:id'
                            component={(props) => <Show {...props} key={window.location.pathname}/>}/>
