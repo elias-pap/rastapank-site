@@ -15,7 +15,7 @@ const ArticlesGrid = ({articles, category}) => {
                     {articles.map((article, i) => (
                         <Col xl="3" md="4" sm="6" xs="12" key={i}>
                             <div className="card">
-                                <Link to={'/article/' + article.id}>
+                                <Link to={'/article/' + (articles.length - 1 - article.id)}>
                                     <div className="card-header">
                                         <img
                                             style={{maxHeight: 200}}

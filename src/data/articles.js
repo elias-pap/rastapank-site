@@ -1,5 +1,17 @@
 export const articles = [
     {
+        src: require('data/articles/elas_aei.md'),
+        title: 'ΕΛ.ΑΣ. στα πανεπιστήμια: τι διακυβεύεται;',
+        created_at: 'Sun, 13 Dec 2020 20:00:00 GMT',
+        tags: [ 
+            { id: 0, name: 'ΕΛ.ΑΣ.'},
+            { id: 1, name: 'πανεπιστήμιο'},
+            { id: 2, name: 'φύλαξη'}
+            ],
+        short_description: 'Το κείμενο μας με αφορμή τις εξαγγελίες για παρείσφρηση της ΕΛ.ΑΣ. στα πανεπιστήμια',
+        id: 5,
+    },
+    {
         src: require('data/articles/gravanis.md'),
         title: 'Γραβάνη τα φαρμάκια σου, μ’ αφήσανε φιντάνι',
         created_at: 'Mon, 19 Oct 2020 12:00:00 GMT',
@@ -8,7 +20,7 @@ export const articles = [
             { id: 1, name: 'πολιτική'}
             ],
         short_description: 'Κείμενο σχολιασμού για τις δημόσιες τοποθετήσεις του Α. Γραβάνη για Covid19 κ.α.',
-        id: 0,
+        id: 4,
     },
     {
         src: require('data/articles/fyla3h.md'),
@@ -19,7 +31,7 @@ export const articles = [
             { id: 1, name: 'φύλαξη'}
             ],
         short_description: 'Κείμενο παρεμβασης στη Σύγκλητο για τη φύλαξη του ΠΚ, με αφορμή τα γεγονότα του Δεκέμβρη',
-        id: 1
+        id: 3
     },
     {
         src: require('data/articles/redpul.md'),
@@ -41,7 +53,7 @@ export const articles = [
             { id: 1, name: 'κάλεσμα'}
             ],
         short_description: 'Κάλεσμα για τις μακροβούτες του 2019',
-        id: 3
+        id: 1
     },
     {
         src: require('data/articles/enisa.md'),
@@ -53,6 +65,6 @@ export const articles = [
             { id: 2, name: 'enisa'}
             ],
         short_description: 'Κείμενο παρεμβασης για τις κτιριακές προτεραιότητες στο ΠΚ',
-        id: 4
+        id: 0
     }
 ]
