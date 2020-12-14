@@ -84,8 +84,8 @@ class Article extends Component {
                 window.dispatchEvent(new CustomEvent('new_page'))
             })
             .catch(console.log);*/
-        var article = articles[params.id];
-        var data = { article: { ...articles[params.id] }};
+        var article = articles[articles.length - 1 - params.id];
+        var data = { article: { ...articles[articles.length - 1 - params.id] }};
 
         fetch(article.src)
             .then((r) => r.text())
