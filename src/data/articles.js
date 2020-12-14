@@ -1,7 +1,7 @@
 export const articles = [
     {
         src: require('data/articles/elas_aei.md'),
-        title: 'ΕΛ.ΑΣ. στα πανεπιστήμια: τι διακυβεύεται;',
+        title: 'Λίγο ΕΛ.ΑΣ., λίγο βούρδουλας και το πείραμα θα τρέξει',
         created_at: 'Sun, 13 Dec 2020 20:00:00 GMT',
         tags: [ 
             { id: 0, name: 'ΕΛ.ΑΣ.'},
