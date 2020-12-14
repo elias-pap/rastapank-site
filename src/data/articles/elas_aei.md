@@ -29,7 +29,7 @@
 2. [European Parliament resolution of 13 November 2020 on the impact of COVID-19 measures on democracy, the rule of law and fundamental rights (2020/2790(RSP))](https://www.europarl.europa.eu/doceo/document/TA-9-2020-0307_EN.html), παρ. 8
 3. [Ανακοίνωση συνόδου πρυτάνεων ΑΕΙ 3/11/2020](http://www.synodos-aei.gr/documents/anakoinosi_synodou_03-11-2020.pdf)
 4. Καθημερινή 4/11/20 – [Σύμφωνοι με τα μέτρα της κυβέρνησεις οι πρυτάνεις](https://www.kathimerini.gr/society/561143182/symfonoi-me-ta-metra-tis-kyvernisis-oi-prytaneis/)
-5. Ρα.στα.πάν.κ 11/19 – [Φύλαξη πανεπιστημίου](https://rastapank.radio.uoc.gr/article/2)
+5. Ρα.στα.πάν.κ 11/19 – [Φύλαξη πανεπιστημίου](https://rastapank.radio.uoc.gr/article/3)
 
 Υπογραφές
 
