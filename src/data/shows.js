@@ -1,7 +1,7 @@
 export const shows =
 [
     {
-        "description": "Κάθε Τετάρτη στις 22:00. Με την Τζούλια Φλογέρα και το Central Scrut.",
+        "description": "Κάθε Τετάρτη στις 22:00. Με την Τζούλια Φλογέρα, το Central Scrutinizer και το Μίλτο Παπαβάϊρο.",
         "email": "asmolf@gmail.com",
         "facebook": "",
         "id": 1,
@@ -139,5 +139,25 @@ export const shows =
         "scheduled": [],
         "short_description": "Podcast τεχνολογικής επικαιρότητας",
         "twitter": "https://twitter.com/RastaPodcast"
+    },
+    {
+        "description": " ",
+        "email": "",
+        "facebook": "",
+        "id": 8,
+        "instagram": "",
+        "logo": require('./shows/nightride.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": " "
+            }
+        ],
+        "name": " ",
+        "scheduled": [],
+        "short_description": " ",
+        "twitter": " "
     }
 ]
