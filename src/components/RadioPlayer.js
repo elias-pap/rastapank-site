@@ -14,13 +14,14 @@ function set_image(meta_url) {
         return
     }
     let image_url = 'https://coverartarchive.org' + meta_url.replace(/^.*\/\/[^/]+/, '');
-    //console.log(image_url)
+    console.log(image_url)
     $.ajax({
         url: image_url,
         type: 'GET',
         success: function (data) {
             if (data.images && data.images.length) {
-                $('#cover').css('background-image', 'url(' + data.images[0].thumbnails.small + ')');
+                image_url = data.images[0].thumbnails.small.replace(/^http:\/\//i, 'https://')                
+                $('#cover').css('background-image', 'url(' + image_url + ')');
             } else
                 $('#cover').css('background-image', `url(${default_cover})`);
         },
@@ -150,7 +151,7 @@ function RadioPlayer() {
             useFastPolling: true,
             useHighPerformance: true,
             id: 'Radio',
-            url: ['https://rs.radio.uoc.gr:8001/uoc_256.ogg', 'https://rs.radio.uoc.gr:8001/uoc_128.mp3'],
+            url: ['https://rastapank.radio.uoc.gr:8443/rastapank.ogg', 'https://rs.radio.uoc.gr:8001/uoc_128.mp3'],
             bufferTime: 3,
             onstop: function () {
                 set_icon(-1, set_music_card_playing)
