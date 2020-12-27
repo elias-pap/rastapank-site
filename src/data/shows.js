@@ -141,7 +141,7 @@ export const shows =
         "twitter": "https://twitter.com/RastaPodcast"
     },
     {
-        "description": " ",
+        "description": "Ελεύθερη τζάζ,πειραματικοί ήχοι και συνθέσεις, γκαράζ πάνκ, σέρφ και πολλά άλλα σε μια νυχτερινή διαδρομή.",
         "email": "",
         "facebook": "",
         "id": 8,
@@ -155,9 +155,29 @@ export const shows =
                 "name": " "
             }
         ],
-        "name": " ",
+        "name": "Nightride",
         "scheduled": [],
         "short_description": " ",
+        "twitter": " "
+    },
+    {
+        "description": "Παρεμβαίνουμε στον αυτόματο γιατί δεν θα αφήσουμε τις μηχανές να μας νικήσουν ",
+        "email": "asmolf@gmail.com",
+        "facebook": "",
+        "id": 9,
+        "instagram": "",
+        "logo": require('./shows/giagia.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "flex"
+            }
+        ],
+        "name": "Gerola Sessions",
+        "scheduled": [],
+        "short_description": "100% Homemade",
         "twitter": " "
     }
 ]
