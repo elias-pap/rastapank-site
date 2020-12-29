@@ -104,7 +104,7 @@ export const shows =
         "description": "Στο λινκ μπορείτε να βρείτε το αρχείο του rastatech. https://anchor.fm/rastatech/episodes/RastaTech-17---emqi3s",
         "email": "",
         "facebook": "",
-        "id": 7,
+        "id": 6,
         "instagram": "",
         "logo": require('./shows/rastatech.jpg'),
         "members": [
@@ -124,7 +124,7 @@ export const shows =
         "description": "Ελεύθερη τζάζ,πειραματικοί ήχοι και συνθέσεις, γκαράζ πάνκ, σέρφ και πολλά άλλα σε μια νυχτερινή διαδρομή.",
         "email": "",
         "facebook": "",
-        "id": 8,
+        "id": 7,
         "instagram": "",
         "logo": require('./shows/nightride.jpg'),
         "members": [
@@ -144,7 +144,7 @@ export const shows =
         "description": "Παρεμβαίνουμε στον αυτόματο γιατί δεν θα αφήσουμε τις μηχανές να μας νικήσουν ",
         "email": "asmolf@gmail.com",
         "facebook": "",
-        "id": 9,
+        "id": 8,
         "instagram": "",
         "logo": require('./shows/giagia.jpg'),
         "members": [
@@ -164,7 +164,7 @@ export const shows =
         "description": "Από jazz μέχρι χιτζάζ. Σοβαρές μουσικές, ασόβαρος παραγωγός.",
         "email": "frankioannis@gmail.com",
         "facebook": "https://www.facebook.com/frank.papadakis.792/",
-        "id": 10,
+        "id": 9,
         "instagram": "https://www.instagram.com/_papawoody",
         "logo": require('./shows/skoni.jpg'),
         "members": [
