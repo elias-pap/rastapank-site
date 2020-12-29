@@ -101,26 +101,6 @@ export const shows =
         "twitter": ""
     },
     {
-        "description": "μαζευόμαστε να μιλήσουμε για την έμφυλη βία, την δυστυχώς επίκαιρη και τόσο διαχρονική... Προσπαθούμε να βρούμε η μία την άλλη και να σπάσουμε τις σιωπές... ΚΑΜΙΑ ΜΟΝΗ ΚΑΜΙΑ ΛΙΓΟΤΕΡΗ",
-        "email": "",
-        "facebook": "",
-        "id": 6,
-        "instagram": "",
-        "logo": require('./shows/kamia_moni.jpg'),
-        "members": [
-             {
-                "avatar": "",
-                "bio": "",
-                "id": 0,
-                "name": "Καμία λιγότερη"
-            }
-        ],
-        "name": "Καμία μόνη",
-        "scheduled": [],
-        "short_description": "",
-        "twitter": ""
-    },
-    {
         "description": "Στο λινκ μπορείτε να βρείτε το αρχείο του rastatech. https://anchor.fm/rastatech/episodes/RastaTech-17---emqi3s",
         "email": "",
         "facebook": "",
@@ -178,6 +158,26 @@ export const shows =
         "name": "Gerola Sessions",
         "scheduled": [],
         "short_description": "100% Homemade",
+        "twitter": " "
+    },
+    {
+        "description": "Από jazz μέχρι χιτζάζ. Σοβαρές μουσικές, ασόβαρος παραγωγός.",
+        "email": "frankioannis@gmail.com",
+        "facebook": "https://www.facebook.com/frank.papadakis.792/",
+        "id": 10,
+        "instagram": "https://www.instagram.com/_papawoody",
+        "logo": require('./shows/skoni.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Frank"
+            }
+        ],
+        "name": "Ευέλικτη Σκόνη",
+        "scheduled": [],
+        "short_description": "Basic-jazz tier",
         "twitter": " "
     }
 ]
