@@ -81,7 +81,7 @@ function start_autobahn() {
     }
 
     const connection = new autobahn.Connection({
-        url: 'wss://snf-68642.vm.okeanos.grnet.gr:8080/ws',
+        url: 'wss://rastapank.radio.uoc.gr:8080/ws',
         realm: 'metadata-realm',
         authid: "anonymous"
     });
