@@ -32,6 +32,12 @@ const subsections = [
         cover: require('assets/img/covers/rastawiki_cover.jpg'),
         short_description: 'αυτά που δεν ακούτε...',
         page: 'https://gitlab.com/rastapank/public'
+    },
+    {
+        title: 'Streams',
+        cover: require('assets/img/covers/icecast.png'),
+        short_description: 'εναλλακτικά streams',
+        page: '/streams'
     }
 ]
 

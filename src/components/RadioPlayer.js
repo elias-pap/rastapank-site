@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from "react-router-dom";
 import $ from 'jquery';
 import {soundManager} from "soundmanager2/script/soundmanager2-nodebug-jsmin"
 import autobahn from "autobahn"
@@ -37,7 +38,7 @@ function start_autobahn() {
 
     function set_meta_autopilot(metadata) {
         if (metadata.songTitle && metadata.artist) {
-            var subtitle = 'Ακούτε ' + metadata.slotTitle + '<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
+            var subtitle = 'Ακούτε ' + metadata.slotTitle + '<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο.'
             $('.presentation-subtitle').html(subtitle);
             $('.radio_title').html(metadata.songTitle);
             $('.radio_artist').html(metadata.artist);
@@ -182,6 +183,7 @@ function RadioPlayer() {
                 <div id="player_icon" onClick={play_btn} className={music_card_playing.play_btn}/>
             </div>
             <h2  className="presentation-subtitle text-center"></h2>
+            <h7  className="presentation-disclaimer text-center">Προβλήματα με τον player; Aκούστε από τα <Link to={'/streams'}>εναλλακτικά streams.</Link></h7>
         </div>
 
     );
