@@ -179,5 +179,31 @@ export const shows =
         "scheduled": [],
         "short_description": "Basic-jazz tier",
         "twitter": " "
+    },
+    {
+        "description": "Μουσικη από την παράδοση της Κρήτης",
+        "email": "",
+        "facebook": "",
+        "id": 10,
+        "instagram": "",
+        "logo": require('./shows/strata.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "ggalan"
+            },
+            {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "jvalsam"
+            }
+        ],
+        "name": "Στης κοντυλιάς τη στράτα...",
+        "scheduled": [],
+        "short_description": "Μουσικη από την παράδοση της Κρήτης",
+        "twitter": " "
     }
 ]
