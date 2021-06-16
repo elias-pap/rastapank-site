@@ -132,7 +132,7 @@ export const shows =
                 "avatar": "",
                 "bio": "",
                 "id": 0,
-                "name": " "
+                "name": "samallala"
             }
         ],
         "name": "Nightride",
