@@ -21,23 +21,23 @@ export const shows =
         "twitter": ""
     },
     {
-        "description": "",
-        "email": "xkaloter@gmail.com ",
-        "facebook": "https://www.facebook.com/xrhsihda",
+        "description": "Κάθε τρίτη 21.00-22.30 - μαυροι κυκλοι και βραδινοι καφεδες για να προλαβουμε την avant garde μουσική επικαιρότητα με θόρυβο, σύνθια, μπάρες και προβλέψεις για τα αυριανα κλασικά",
+        "email": " ",
+        "facebook": " ",
         "id": 2,
         "instagram": "",
-        "logo": require('./shows/cajuela_majica.jpg'),
+        "logo": require('./shows/smaklos.jpg'),
         "members": [
              {
                 "avatar": "",
                 "bio": "",
                 "id": 1,
-                "name": "Χρύσα"
+                "name": "elenapaps"
             }
         ],
-        "name": "Cajuela Majica",
+        "name": "smaklös",
         "scheduled": [],
-        "short_description": "Μουσικές του Κόσμου",
+        "short_description": " ",
         "twitter": ""
     },
     {
