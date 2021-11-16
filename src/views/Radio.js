@@ -31,7 +31,7 @@ const subsections = [
         title: 'Documentation',
         cover: require('assets/img/covers/rastawiki_cover.jpg'),
         short_description: 'αυτά που δεν ακούτε...',
-        page: 'https://gitlab.com/rastapank/public'
+        page: 'https://gitlab.com/rastapank/public/-/wikis/home'
     },
     {
         title: 'Streams',
