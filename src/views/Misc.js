@@ -13,7 +13,7 @@ const subsections = [
         title: 'Μακροβούτες',
         cover: require('assets/img/covers/μακροβούτες_cover.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
-        page: 'https://rastapank.gitlab.io/makrovoutes'
+        page: 'https://foukou.gitlab.io/makrovoutes/'
     },
     {
         title: 'Events',
