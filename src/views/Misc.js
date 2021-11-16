@@ -32,6 +32,12 @@ const subsections = [
         cover: require('assets/img/covers/παρεμβάσεις_cover.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: '/acts'
+    },
+    {
+        title: 'ΦΚ βούτες',
+        cover: require('assets/img/covers/foukou.jpg'),
+        //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
+        page: 'https://gitlab.com/foukou/space/-/wikis/home'
     }
 ]
 
