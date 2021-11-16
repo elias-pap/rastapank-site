@@ -53,6 +53,18 @@ export const photos = [
             width: 1,
             height: 1,
             site: 'https://www.facebook.com/academicsessions'
+        },
+        {
+            src: require('assets/img/rest_logos/isogeio.png'),
+            width: 1,
+            height: 1,
+            site: 'https://isogeio.blackblogs.org/'
+        },
+        {
+            src: require('assets/img/rest_logos/squatlogo.jpg'),
+            width: 1,
+            height: 1,
+            site: 'https://squatfm.net/'
         }
   ];
   
