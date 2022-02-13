@@ -205,5 +205,31 @@ export const shows =
         "scheduled": [],
         "short_description": "Μουσικη από την παράδοση της Κρήτης",
         "twitter": " "
+    },
+    {
+        "description": "",
+        "email": "",
+        "facebook": "",
+        "id": 11,
+        "instagram": "",
+        "logo": require('./shows/lama.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Dimitra"
+            },
+            {
+               "avatar": "",
+               "bio": "",
+               "id": 1,
+               "name": "Stella"
+           }
+        ],
+        "name": "Lamadiste",
+        "scheduled": [],
+        "short_description": "",
+        "twitter": ""
     }
 ]
