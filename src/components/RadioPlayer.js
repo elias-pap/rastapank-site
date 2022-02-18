@@ -21,7 +21,7 @@ function set_image(meta_url) {
         type: 'GET',
         success: function (data) {
             if (data.images && data.images.length) {
-                image_url = data.images[0].thumbnails.small.replace(/^http:\/\//i, 'https://')                
+                image_url = data.images[0].thumbnails.small.replace(/^http:\/\//i, 'https://')
                 $('#cover').css('background-image', 'url(' + image_url + ')');
             } else
                 $('#cover').css('background-image', `url(${default_cover})`);
@@ -50,9 +50,13 @@ function start_autobahn() {
     function set_meta_show(metadata) {
         var show = shows[parseInt(metadata.producerName) - 1];
 
-        var subtitle = 'Ακούτε την εκπομπή ' + show.name + ' (by ' + show.members[0].name + ')<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
-        $('.presentation-subtitle').html(subtitle);
+        var all_producers = show.members[0].name;
+        for (var i = 1; i < show.members.length; i++) {
+            all_producers = all_producers + ' & ' + show.members[i].name
+        }
+        var subtitle = 'Ακούτε την εκπομπή ' + show.name + ' (by ' + all_producers + ')<br/> από τους πρόποδες του κάμπου(s) στο Ηράκλειο'
 
+        $('.presentation-subtitle').html(subtitle);
         $('.radio_title').html("Show on air");
         $('.radio_album').html("");
         $('.radio_artist').html("");
@@ -70,7 +74,7 @@ function start_autobahn() {
             else
                 set_meta_autopilot(data_autopilot)
         }).fail(() => {
-            
+
         });*/
         let metadata = $.parseJSON(data);
 

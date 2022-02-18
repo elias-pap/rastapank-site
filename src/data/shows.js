@@ -231,5 +231,56 @@ export const shows =
         "scheduled": [],
         "short_description": "",
         "twitter": ""
+    },
+    {
+        "description": "Spoiler alert κάθε Κυριακή στις 22:00, ακούμε soundtracks από ταινίες και τις σχολιάζουμε ελαφρώς ",
+        "email": "",
+        "facebook": "",
+        "id": 12,
+        "instagram": "",
+        "logo": require('./shows/spoiler_alert.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Pard"
+            },
+            {
+               "avatar": "",
+               "bio": "",
+               "id": 1,
+               "name": "Skerdi"
+           }
+        ],
+        "name": "Spoiler Alert",
+        "scheduled": [],
+        "short_description": "",
+    },
+    {
+        "description": "Μετά από πολλή σκέψη, συζήτηση 2 ολόκληρων λεπτών και την μεσολάβηση μιας τυχαίας και απρόσμενης γνωριμίας δυο φίλες, δυο βοστριχοκεφαλες, δυο Σ(ίγμα) αποφάσισαν να ενώσουν τα μυαλά τους δημιουργώντας μια εκπομπή που θα περιλαμβάνει πάσης φύσης μουσική, γέλιο και last but not least πολύ ΣουΣου!!!",
+        "email": "",
+        "facebook": "",
+        "id": 13,
+        "instagram": "https://www.instagram.com/sousouradiofm/",
+        "logo": require('./shows/sousou.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Σίσσυ Καραμπινη"
+            },
+            {
+               "avatar": "",
+               "bio": "",
+               "id": 1,
+               "name": "Σταυρούλα Μπικακη"
+           }
+        ],
+        "name": "ΣουΣου",
+        "scheduled": [],
+        "short_description": "",
     }
+
 ]
