@@ -21,6 +21,7 @@ class ScheduleAutopilot extends Component {
                 this.setState(jsonData);
             })
             .catch(console.log);*/
+
             var jsonData = require('../components/schedule_rastapank.json');
             this.setState(jsonData);
     }

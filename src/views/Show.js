@@ -53,6 +53,7 @@ function MembersList({producers: members}) {
 }
 
 function ScheduledList({hours}) {
+
     if (hours && hours.length) {
         return (
             <div>
@@ -101,11 +102,11 @@ class Show extends Component {
                 window.dispatchEvent(new CustomEvent('new_page'))
             })
             .catch(console.log);*/
-        
+
         var data = { show: { ...shows[parseInt(params.id) - 1] }};
         this.setState(data);
         window.dispatchEvent(new CustomEvent('new_page'))
-        
+
     }
 
     render() {
@@ -129,13 +130,13 @@ class Show extends Component {
                             </div>
                         </div>
                         <div className="middle">
-                            {this.state.show.facebook && this.state.show.facebook.length > 0 ? 
+                            {this.state.show.facebook && this.state.show.facebook.length > 0 ?
                             <Social social='facebook' link={this.state.show.facebook}/> : <></>}
-                            {this.state.show.instagram && this.state.show.instagram.length > 0 ? 
+                            {this.state.show.instagram && this.state.show.instagram.length > 0 ?
                             <Social social='instagram' link={this.state.show.instagram}/> : <></>}
-                            {this.state.show.twitter && this.state.show.twitter.length > 0 ? 
+                            {this.state.show.twitter && this.state.show.twitter.length > 0 ?
                             <Social social='twitter' link={this.state.show.twitter}/> : <></>}
-                            {this.state.show.email && this.state.show.email.length > 0 ? 
+                            {this.state.show.email && this.state.show.email.length > 0 ?
                             <Social social='email' link={this.state.show.email}/> : <></>}
                         </div>
                         <Row>

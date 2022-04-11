@@ -281,6 +281,29 @@ export const shows =
         "name": "ΣουΣου",
         "scheduled": [],
         "short_description": "",
-    }
+    },
 
+
+//--------------------------------------------------------------------------------------
+
+
+    {
+        "description": "",
+        "email": "",
+        "facebook": "",
+        "id": 14,
+        "instagram": "",
+        "logo": require('./shows/ektakth.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Αρουραίοι"
+            }
+        ],
+        "name": "Έκτακτη εκπομπή",
+        "scheduled": [],
+        "short_description": "",
+    }
 ]
