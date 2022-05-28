@@ -146,6 +146,16 @@ class Article extends Component {
                             </Col>
                         </Row>
                         <br/>
+                        <Row>
+                            <Col className="ml-auto mr-auto text-left" md="12">
+                                {this.state.article.attachment &&
+                                <h5 className="attachments">
+                                    <a href={this.state.article.attachment}>Το κείμενο σε εκτυπώσιμη μορφή</a>
+                                </h5>
+                                }
+                            </Col>
+                        </Row>
+                        <br/>
                     </Container>
                 </div>
                 <IndexFooter/>

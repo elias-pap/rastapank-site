@@ -1,5 +1,19 @@
 export const articles = [
     {
+        src: require('data/articles/nevada.md'),
+        title: 'ΥΠΑΡΧΕΙ ΚΑΛΥΤΕΡΗ “ΝΕΒΑ∆Α” ΚΑΙ ΤΗ ΘΕΛΟΥΜΕ',
+        created_at: 'Mon, 23 May 2022 20:00:00 GMT',
+        tags: [ 
+            { id: 0, name: 'πανεπιστήμιο'},
+            { id: 1, name: 'ερημοποίηση'},
+            { id: 2, name: 'επανοικειοποίηση'}
+            ],
+        short_description: 'Ένα κείµενο για την ερηµοποίηση του πανεπιστηµιακού χώρου και την ανάγκη επανοικειοποίησης του',
+        cover: require('data/articles/covers/nevada-cover.jpg'),
+        attachment: require('data/articles/attachments/nevada.pdf'),
+        id: 6,
+    },
+    {
         src: require('data/articles/elas_aei.md'),
         title: 'Λίγο ΕΛ.ΑΣ., λίγο βούρδουλας και το πείραμα θα τρέξει',
         created_at: 'Sun, 13 Dec 2020 20:00:00 GMT',
