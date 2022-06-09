@@ -1,7 +1,7 @@
 export const articles = [
     {
         src: require('data/articles/nevada.md'),
-        title: 'ΥΠΑΡΧΕΙ ΚΑΛΥΤΕΡΗ “ΝΕΒΑ∆Α” ΚΑΙ ΤΗ ΘΕΛΟΥΜΕ',
+        title: 'Υπάρχει καλύτερη "Νεβάδα" και τη θέλουμε',
         created_at: 'Mon, 23 May 2022 20:00:00 GMT',
         tags: [ 
             { id: 0, name: 'πανεπιστήμιο'},
@@ -10,6 +10,7 @@ export const articles = [
             ],
         short_description: 'Ένα κείµενο για την ερηµοποίηση του πανεπιστηµιακού χώρου και την ανάγκη επανοικειοποίησης του',
         cover: require('data/articles/covers/nevada-cover.jpg'),
+        og_cover: require('data/articles/covers/nevada-cover-og.jpg'),
         attachment: require('data/articles/attachments/nevada.pdf'),
         id: 6,
     },

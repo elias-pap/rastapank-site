@@ -92,6 +92,12 @@ class Article extends Component {
             .then(text  => {
                 data.article.body = text;
                 data.article.cover = data.article.cover ? data.article.cover : default_article_cover;
+                data.meta = get_default_meta({
+                    title: data.article.title,
+                    description: data.article.short_description,
+                    type: 'article',
+                    image: data.article.og_cover
+                })
                 this.setState(data);
                 window.dispatchEvent(new CustomEvent('new_page'))
             })
@@ -138,21 +144,21 @@ class Article extends Component {
                                 </Row>
                             </div>
                         </div>
+                        <br/>
+                        <Row>
+                        <Col className="ml-auto mr-auto text-left" md={12}>
+                                {this.state.article.attachment &&
+                                <p className="attachments">
+                                    <a href={this.state.article.attachment}>το κείμενο σε εκτυπώσιμη μορφή</a>
+                                </p>
+                                }
+                            </Col>
+                        </Row>
                         <Row>
                             <Col className="ml-auto mr-auto text-left" md="12">
                                 <div className="markD">
                                     <ReactMarkdown plugins={[[gfm]]} children={this.state.article.body}/>
                                 </div>
-                            </Col>
-                        </Row>
-                        <br/>
-                        <Row>
-                            <Col className="ml-auto mr-auto text-left" md="12">
-                                {this.state.article.attachment &&
-                                <h5 className="attachments">
-                                    <a href={this.state.article.attachment}>Το κείμενο σε εκτυπώσιμη μορφή</a>
-                                </h5>
-                                }
                             </Col>
                         </Row>
                         <br/>
