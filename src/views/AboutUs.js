@@ -16,6 +16,9 @@ type State = {
     zoom: number,
 }
 
+
+
+
 class OSMComponent extends Component<{}, State> {
     state = {
         lat: 35.30846,
@@ -90,18 +93,13 @@ class AboutUs extends Component {
                                         <a className="btn2" target="_blank" href="https://www.facebook.com/rastapank967">
                                             <i className="fa fa-facebook-f"/>
                                         </a>
-                                        <a className="btn2" target="_blank" href="https://www.instagram.com/rastapank967">
-                                            <i className="fa fa-instagram"/>
-                                        </a>
-                                        <a className="btn2" target="_blank" href="https://twitter.com/rastapank967">
-                                            <i className="fa fa-twitter"/>
-                                        </a>
-                                        <a className="btn2" target="_blank" href="https://www.youtube.com/channel/UCh314hh9K5WV1i697roHh1Q">
-                                            <i className="fa fa-youtube"/>
-                                        </a>
                                         <a className="btn2" target="_blank" href="https://github.com/UoC-Radio">
                                             <i className="fa fa-github"/>
                                         </a>
+                                        <a className="btn2" target="_blank" href="https://gitlab.com/rastapank/public">
+                                            <i className="fa fa-gitlab"/>
+                                        </a>
+
                                     </div>
                                 </div>
                             </Row>

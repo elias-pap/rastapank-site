@@ -31,7 +31,7 @@ export const shows =
              {
                 "avatar": "",
                 "bio": "",
-                "id": 1,
+                "id": 0,
                 "name": "elenapaps"
             }
         ],
@@ -207,7 +207,7 @@ export const shows =
         "twitter": " "
     },
     {
-        "description": "",
+        "description": "Γεμίζουμε τη μουσική μας βαλίτσα με όμορφες μελωδίες. Και την αδειάζουμε κάθε Πέμπτη στα ραδιόφωνα σας. το τίμημα λίγος κοινωνικός σχολιασμός υψηλού επιπέδου ΠΑΝΤΑ όπως αρμόζει σε ραδιοφωνικούς παραγωγούς τέτοιου κύρους.",
         "email": "",
         "facebook": "",
         "id": 11,
@@ -282,7 +282,24 @@ export const shows =
         "scheduled": [],
         "short_description": "",
     },
-
+    {
+        "description": "Κάθε Παρασκευή 18:00-20:00:  Μαθήματα αυτοάμυνας ενάντια στη σύγχρονη μουσική βιομηχανία. Θεματικές εκπομπές, μόνο μπουμερ επιλογές.",
+        "email": "",
+        "facebook": "",
+        "id": 14,
+        "logo": require('./shows/selfdefence.jpg'),
+        "members": [
+             {
+                "avatar": "",
+                "bio": "",
+                "id": 0,
+                "name": "Νιόκι"
+            }
+        ],
+        "name": "SELF DEFENCE AGAINST FRESH FRUIT",
+        "scheduled": [],
+        "short_description": "",
+    },
 
 //--------------------------------------------------------------------------------------
 
@@ -291,7 +308,7 @@ export const shows =
         "description": "",
         "email": "",
         "facebook": "",
-        "id": 14,
+        "id": 15,
         "instagram": "",
         "logo": require('./shows/ektakth.jpg'),
         "members": [
