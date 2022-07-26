@@ -139,7 +139,7 @@ function TheNavbar({ categories }) {
                         </NavItem>
                         <NavItem>
                             <Link className="nav-link" to="/misc">
-                                <p className="">ΔΡΑΣΕΙΣ & ΑΝΤΙΔΡΑΣΕΙΣ</p>
+                                <p className="">Culture</p>
                             </Link>
                         </NavItem>
                         {/*
@@ -165,7 +165,7 @@ function TheNavbar({ categories }) {
                         </NavItem>
                         <NavItem>
                             <Link className="nav-link" to="/about_us">
-                                <p className="">ABOUT US</p>
+                                <p className="">ABOUT</p>
                             </Link>
                         </NavItem>
                     </Nav>

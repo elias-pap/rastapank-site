@@ -10,13 +10,13 @@ const default_cover = "https://images.unsplash.com/photo-1534531173927-aeb928d54
 
 const subsections = [
     {
-        title: 'Μακροβούτες',
-        cover: require('assets/img/covers/μακροβούτες_cover.jpg'),
+        title: 'Μακροβούτες Festival',
+        cover: require('assets/img/covers/μακροβούτες_cover.png'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: 'https://foukou.gitlab.io/makrovoutes/'
     },
     {
-        title: 'Events',
+        title: 'Event Posters',
         cover: require('assets/img/covers/events_cover.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: '/events'
@@ -28,13 +28,13 @@ const subsections = [
         page: 'https://rastapank.gitlab.io/repetition/'
     },
     {
-        title: 'Παρεμβάσεις',
+        title: 'Blog',
         cover: require('assets/img/covers/παρεμβάσεις_cover.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: '/acts'
     },
     {
-        title: 'ΦΚ βούτες',
+        title: 'Φοιτητικο Κεντρο Βούτες',
         cover: require('assets/img/covers/foukou.jpg'),
         //short_description: 'Εκθέσεις, φεστιβάλ και λοιπά καλλιτεχνικά δρώμενα',
         page: 'https://gitlab.com/foukou/space/-/wikis/home'
@@ -48,11 +48,11 @@ class Misc extends Component {
 
     render() {
         return (
-            <DocumentMeta {...get_default_meta({title: 'Δράσεις & αντιδράσεις'})}>
+            <DocumentMeta {...get_default_meta({title: 'Culture'})}>
                 {window.dispatchEvent(new CustomEvent('new_page'))}
                 <div className="main">
                     <div className="section text-center">
-                        <SubsectionsGrid header='Δράσεις & αντιδράσεις' subsections={subsections}/>
+                        <SubsectionsGrid header='Culture' subsections={subsections}/>
                     </div>
                 </div>
                 <IndexFooter/>

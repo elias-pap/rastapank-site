@@ -1,6 +1,26 @@
 export const photos =
 [
     {
+        src: require('assets/img/events/37.png'),
+        width: 1,
+        height: 1.4
+    },
+    {
+        src: require('assets/img/events/36.png'),
+        width: 1,
+        height: 1.4
+    },
+    {
+        src: require('assets/img/events/35.png'),
+        width: 1,
+        height: 1.4
+    },
+    {
+        src: require('assets/img/events/34.png'),
+        width: 1,
+        height: 1.4
+    },
+    {
         src: require('assets/img/events/33.png'),
         width: 1,
         height: 1.4

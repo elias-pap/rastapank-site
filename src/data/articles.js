@@ -1,9 +1,20 @@
 export const articles = [
-    {
-        src: require('data/articles/nevada.md'),
+
+  {
+        src: require('data/articles/thanksforallthefish.md'),
+        title: 'Thanks for all the fish',
+        created_at: 'Fri, 15 July 2022 15:00:00 GMT',
+        tags: [
+              ],
+        short_description: 'Ευχαριστηριο γραμμα για τις μακροβουτες',
+        cover: require('data/articles/covers/thanksforallthefish.jpg'),
+        og_cover: require('data/articles/covers/thanksforallthefish.jpg'),
+        id: 11,
+    },
+      {  src: require('data/articles/nevada.md'),
         title: 'Υπάρχει καλύτερη "Νεβάδα" και τη θέλουμε',
         created_at: 'Mon, 23 May 2022 20:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'πανεπιστήμιο'},
             { id: 1, name: 'ερημοποίηση'},
             { id: 2, name: 'επανοικειοποίηση'}
@@ -12,25 +23,71 @@ export const articles = [
         cover: require('data/articles/covers/nevada-cover.jpg'),
         og_cover: require('data/articles/covers/nevada-cover-og.jpg'),
         attachment: require('data/articles/attachments/nevada.pdf'),
-        id: 6,
+        id: 10,
+    },
+    {
+         src: require('data/articles/200watt.md'),
+         title: '200 watt FM',
+         created_at: 'Wed, 19 January 2022 20:00:00 GMT',
+         tags: [
+               ],
+         short_description: '',
+         cover: require('data/articles/covers/200watt.jpg'),
+         og_cover: require('data/articles/covers/200watt.jpg'),
+         id: 9,
+     },
+    {
+          src: require('data/articles/ekriti.md'),
+          title: 'Ηράκλειο - κορωνοπάρτι',
+          created_at: 'Fri, 23 April 2021 00:00:00 GMT',
+          tags: [
+            { id: 0, name: 'ekriti'}
+
+              ],
+          short_description: 'Ξεσάλωσαν μέσα στο Πανεπιστήμιο',
+          cover: require('data/articles/covers/ekriti.jpg'),
+          og_cover: require('data/articles/covers/ekriti.jpg'),
+          id: 8,
+      },
+      {
+        src: require('data/articles/metakinisi6.md'),
+        title: 'Μετακινηση 6',
+        created_at: 'Sun, 3 January 2021 12:00:00 GMT',
+        tags: [
+            ],
+        short_description: 'Μετακινηση 6 Αρουραιος Ρασταπανκιστης Βουτες',
+        cover: require('data/articles/covers/metakinisi6.jpg'),
+        og_cover: require('data/articles/covers/metakinisi6.jpg'),
+        id: 7,
     },
     {
         src: require('data/articles/elas_aei.md'),
         title: 'Λίγο ΕΛ.ΑΣ., λίγο βούρδουλας και το πείραμα θα τρέξει',
         created_at: 'Sun, 13 Dec 2020 20:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'ΕΛ.ΑΣ.'},
             { id: 1, name: 'πανεπιστήμιο'},
             { id: 2, name: 'φύλαξη'}
             ],
         short_description: 'Το κείμενο μας με αφορμή τις εξαγγελίες για παρείσφρηση της ΕΛ.ΑΣ. στα πανεπιστήμια',
-        id: 5,
+        id: 6,
     },
+    {
+          src: require('data/articles/newsite.md'),
+          title: 'Με δάκρυα και συγκίνηση σας ανακοινώνουμε το καινούργιο μας σάϊτ',
+          created_at: 'Fri, 20 November 2020 20:00:00 GMT',
+          tags: [
+              ],
+          short_description: '',
+          cover: require('data/articles/covers/newsite.jpg'),
+          og_cover: require('data/articles/covers/newsite.jpg'),
+          id: 5,
+      },
     {
         src: require('data/articles/gravanis.md'),
         title: 'Γραβάνη τα φαρμάκια σου, μ’ αφήσανε φιντάνι',
         created_at: 'Mon, 19 Oct 2020 12:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'υγεία'},
             { id: 1, name: 'πολιτική'}
             ],
@@ -41,7 +98,7 @@ export const articles = [
         src: require('data/articles/fyla3h.md'),
         title: 'Φύλαξη πανεπιστημίου (προς Σύγκλητο)',
         created_at: 'Mon, 10 Feb 2020 12:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'πανεπιστήμιο'},
             { id: 1, name: 'φύλαξη'}
             ],
@@ -52,7 +109,7 @@ export const articles = [
         src: require('data/articles/redpul.md'),
         title: 'Red πουλ.',
         created_at: 'Fri, 29 Mar 2019 12:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'ΦΚ'},
             { id: 1, name: 'εταιρία'}
             ],
@@ -63,7 +120,7 @@ export const articles = [
         src: require('data/articles/makro19.md'),
         title: 'Μακροβούτες 2019',
         created_at: 'Mon, 11 Mar 2019 12:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'μακροβουτες'},
             { id: 1, name: 'κάλεσμα'}
             ],
@@ -74,7 +131,7 @@ export const articles = [
         src: require('data/articles/enisa.md'),
         title: 'Φοιτητικές εστίες, ENISA και ευρωπαϊκό σχολείο. Μια σειρά από λάθος προτεραιότητες.',
         created_at: 'Fri, 30 Nov 2018 12:00:00 GMT',
-        tags: [ 
+        tags: [
             { id: 0, name: 'πανεπιστήμιο'},
             { id: 1, name: 'εστίες'},
             { id: 2, name: 'enisa'}
