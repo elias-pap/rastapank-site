@@ -4,22 +4,13 @@ import "assets/css/social_bar.css";
 import {Col, Container, Row} from "reactstrap";
 import {get_default_meta} from "../default_meta";
 import DocumentMeta from "react-document-meta";
-import GoogleMapReact from "google-map-react";
 
 import { render } from 'react-dom'
-import L from 'leaflet';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 
-type State = {
-    lat: number,
-    lng: number,
-    zoom: number,
-}
 
 
-
-
-class OSMComponent extends Component<{}, State> {
+class OSMComponent extends Component{
     state = {
         lat: 35.30846,
         lng: 25.08119,

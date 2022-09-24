@@ -4,7 +4,6 @@ import {Col, Container, Row} from "reactstrap";
 import Moment from "react-moment";
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
-import footnotes from 'remark-footnotes'
 import remarkSubSuper from 'remark-sub-super'
 import DocumentMeta from "react-document-meta";
 import {get_default_meta} from "../default_meta";

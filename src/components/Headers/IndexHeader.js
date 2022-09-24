@@ -10,7 +10,7 @@ function IndexHeader() {
             <div id="menu" className="page-header section-dark"
                  style={{
                      backgroundImage:
-                         "url(" + require("./../../assets/img/forest_small.jpg") + ")"
+                         "url(" + require("./../../assets/img/forest.jpg") + ")"
                  }}>
                 <div className="filter"/>
                 <div className="z99 content-center">
